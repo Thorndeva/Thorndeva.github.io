@@ -82,7 +82,6 @@ giscus:
   category_id:
   mapping:
 
-
 search:
   enable: true
   placeholder:
