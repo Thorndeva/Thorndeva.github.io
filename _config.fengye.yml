@@ -1,0 +1,88 @@
+# Header
+nav:
+  # Home: /index
+  Posts:
+    path: ./archives
+    icon: mingcute:inbox-fill
+    show_text: true
+  Publications:
+    path: ./publications
+    icon: mingcute:science-fill
+    show_text: true
+  # Projects: /projects
+  About:
+    path: ./about
+    icon: mingcute:user-info-fill
+    show_text: true
+  Categories:
+    path: ./category
+    icon: mingcute:classify-2-fill
+    show_icon: true
+  Tags:
+    path: ./tag
+    icon: mingcute:tag-fill
+    show_icon: true
+  Home:
+    path: ./index
+    icon: mingcute:home-2-fill
+    show_icon: true
+
+email: "sketchupensvray@qq.com"
+
+# favicon
+favicon: /images/favicon-32x32.png
+
+# Portrait
+portrait: /images/portrait.webp
+
+# logo
+logo: /images/favicon.ico
+
+# links
+links:
+  QQ:
+    link: https://im.qq.com
+    icon: ri:qq-fill
+  Wechat:
+    link: https://weixin.qq.com
+    icon: mdi:wechat
+  ZhiHu:
+    link: https://www.zhihu.com
+    icon: ri:zhihu-line
+  # Weibo:
+
+# analytics
+google_analytics:
+baidu_analytics:
+
+# mathjax
+fancybox: true
+
+# mathjax
+mathjax: true
+
+# echarts
+echarts: true
+
+# busuanzi
+busuanzi: false
+
+# mermaid
+mermaid:
+  enable: true
+  # Available themes: default | dark | forest | neutral
+  theme: default
+
+# giscus
+giscus:
+  enable:
+  repo:
+  repo_id:
+  category:
+  category_id:
+  mapping:
+
+
+search:
+  enable: true
+  placeholder:
