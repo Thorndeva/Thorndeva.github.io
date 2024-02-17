@@ -26,7 +26,7 @@
   <meta name="keywords" content="Thorn Logs,刺,Natural Language Processing,Artificial Intelligence">
 
 
-<title>如何让Win11系统托盘显示秒数 | Thorn Logs</title>
+<title>Tag: javascript | Thorn Logs</title>
 
 
 
@@ -732,69 +732,142 @@
   </div>
 </div>
   <main>
-    <!-- css -->
+    <!--
+This page has two versions, which is shown is based on whether current page
+is "tag".
 
-<link rel="stylesheet" href="/lib/fancybox/fancybox.min.css">
+  - url:'http://localhost:4000/tag/' return false.
+- url:'http://localhost:4000/tags/test/' return true.
 
-  
-<link rel="stylesheet" href="/lib/tocbot/tocbot.min.css">
+The '/tag/' page shows all tags and is where you land on when you click
+on the "Tags" in the navigation bar. Otherwise if you enter 'tags' by clicking on of the tag elements in some
+posts, and it shows all posts with that tag.
 
-    <!-- toc -->
-    
-<section class="px-6 max-w-prose mx-auto md:px-0">
-  <!-- Post header before content -->
-  <header class="py-4">
-    <div class="flex flex-col gap-2 pt-4 md:pt-6">
-      <!-- Title -->
-      <div id="article-title" class="leading-snug">
-        <p class="text-3xl font-bold text-[var(--c-100)] mb-4">如何让Win11系统托盘显示秒数</p>
+To add a "Tags" page.
+
+1. hexo new page "tag"
+2. cd source/tag/index.md
+3. Add the following front matter.
+
+---
+title: '''tag'''
+date: 2019-06-09 09:56:49
+layout: tag
+---
+-->
+
+  <!-- 已经选择了一个tag，显示一个 tag 的所有 post -->
+  <div class="mt-6">
+    <div class="flex flex-wrap gap-1 justify-center items-center">
+      <iconify-icon width="24" icon="mingcute:tag-fill"></iconify-icon>
+      <div class="text-xl align-middle">
+        Tag:
       </div>
-      <!-- Meta data -->
-      <div>
-        <section class="
-          flex flex-col gap-x-2 gap-y-1 text-sm text-[var(--c-100)]">
-          <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
-            <!-- Dates -->
-            <div class="flex items-center gap-1">
-              <iconify-icon width="18" icon="mingcute:add-circle-fill" ></iconify-icon>
-              Created: <time class="w-max">2023-06-08</time>
-            </div>
-            <div class="flex items-center gap-1">
-              <iconify-icon width="18" icon="mingcute:refresh-3-fill" ></iconify-icon>
-              Edited: <time class="w-max">2024-02-17</time>
-            </div>
-          </div>
-          <div class="flex flex-wrap items-center gap-x-3 gap-y-3">
-            <!-- Author -->
+      <div
+      class="
+        tag
+        px-2
+        py-[1px]
+        text-xl
+        rounded-full
+        pointer-events-none
+      ">
+        #javascript
+      </div>
+  </div>
+  <section class="px-2 py-8 max-w-prose mx-auto gap-4 grid grid-cols-1">
+  
+  
+    
+    <!-- Large text showing the year in the background -->
+    
+      <div class="relative pointer-events-none h-[30px]">
+        <div class="absolute -top-6 w-[100%]">
+          <p class="
+            text-clip overflow-hidden -translate-x-3 text-9xl
+            font-extrabold
+            text-[#42b883]
+            opacity-10
+            dark:opacity-20">
+            2024
+          </p>
+        </div>
+      </div>
+    
+    <!-- The post -->
+    <div class="w-full">
+      <!-- One post item in a list -->
+<div class="
+    post-container
+    px-2 py-2
+    flex flex-col gap-3">
+    <div class="flex flex-row gap-4">
+        
+            <div class="flex flex-col gap-1">
+                <!-- Post title -->
+                <a href="/2024/02/17/%E8%A7%A3%E5%86%B3hexo%E4%B8%AD%E6%9C%80%E8%BF%91%E6%96%87%E7%AB%A0filter%E6%8A%A5%E9%94%99/">
+                    <h2 class="
+                        text-[var(--c-80)]
+                        font-bold
+                        text-xl
+                        hover:text-[#42b883]
+                        transition-all
+                        hover:underline">
+                        解决hexo中最近文章filter报错
+                    </h2>
+                </a>
+            <!-- Post excerpt -->
             
-              <span class="flex items-center gap-1 group">
-                <iconify-icon width="18" icon="mingcute:user-edit-fill" ></iconify-icon>
-                <p>Thorn`刺</p>
-              </span>
-            
-
-            <!-- Word count -->
-            <span class="flex items-center gap-1">
-              <iconify-icon width="18" icon="mingcute:book-2-fill" ></iconify-icon>
-              <span>382 words, 1 min</span>
+            </div>
+        </div>
+        <!-- Post Statistics -->
+        <div class="flex flex-wrap items-center gap-x-2 text-sm
+            text-[var(--c-70)]">
+            <span class="flex flex-row items-center gap-1 group">
+                <iconify-icon width="16"
+                    icon="mingcute:add-circle-fill"></iconify-icon>
+                <time class="w-max">
+                    2024-02-17
+                </time>
+            </span>
+            <span class="flex flex-row items-center gap-1 group">
+                <iconify-icon width="16"
+                    icon="mingcute:refresh-3-fill"></iconify-icon>
+                <time class="w-max">
+                    2024-02-17
+                </time>
+            </span>
+            <span class="flex flex-row items-center gap-1 group">
+                <iconify-icon width="16"
+                    icon="mingcute:book-2-fill"></iconify-icon>
+                <p class="w-max">
+                    331 words, 1 min
+                </p>
             </span>
             <!-- Categories -->
+            <span class="flex flex-row items-center gap-1 group">
+                
+                    <iconify-icon class="
+                            group-hover:scale-125
+                            transition-transform
+                            group-hover:text-[#42b883]
+                        "
+                        width="16"
+                        icon="mingcute:classify-2-fill" class="mr-0">
+                    </iconify-icon>
+                    
+                        <a class="underline underline-offset-2"
+                            href="/categories/website/">
+                            Website
+                        </a>
+                    
+                
+            </span>
+        </div>
+        <!-- Tags -->
+        <div>
             
-              <!-- <span class="text-gray-400">·</span> -->
-              <span class="flex flex-row items-center gap-1 group hover:underline">
-                <iconify-icon class="transition-all group-hover:scale-125 mr-0"
-                  width="18"
-                  icon="mingcute:classify-2-fill">
-                </iconify-icon>
-                <a class="article-category-link" href="/categories/windows/">Windows</a>
-              </span>
-            
-          </div>
-        </section>
-      </div>
-      <!-- tags -->
-      <div>
-        
+                
 <div class="flex flex-wrap gap-1">
   
     
@@ -816,7 +889,7 @@
         technology
       </a>
     
-      <a href="/tags/setup/"
+      <a href="/tags/hexo/"
         class="
           tag
           text-sm
@@ -831,10 +904,10 @@
           hover:bg-[#42b883]
           hover:text-[var(--c-0)]
         ">
-        setup
+        hexo
       </a>
     
-      <a href="/tags/win11/"
+      <a href="/tags/website/"
         class="
           tag
           text-sm
@@ -849,10 +922,10 @@
           hover:bg-[#42b883]
           hover:text-[var(--c-0)]
         ">
-        win11
+        website
       </a>
     
-      <a href="/tags/taskbar/"
+      <a href="/tags/filter/"
         class="
           tag
           text-sm
@@ -867,10 +940,10 @@
           hover:bg-[#42b883]
           hover:text-[var(--c-0)]
         ">
-        taskbar
+        filter
       </a>
     
-      <a href="/tags/optimization/"
+      <a href="/tags/javascript/"
         class="
           tag
           text-sm
@@ -885,200 +958,24 @@
           hover:bg-[#42b883]
           hover:text-[var(--c-0)]
         ">
-        optimization
+        javascript
       </a>
     
   
 </div>
-      </div>
+            
+        </div>
+</div>
     </div>
-  </header>
-  <!-- content -->
-  <article class="post-content prose m-auto dark:prose-invert">
-    <p>在 Windows 11 中，默认情况下，系统托盘中的时钟只显示小时和分钟，并没有显示秒数的选项。但是，您可以通过修改注册表来实现在系统托盘中显示秒数。请按照以下步骤进行操作：</p>
-<ol>
-<li>
-<p><strong>打开注册表编辑器</strong>：</p>
-<ul>
-<li>按下 <code>Win + R</code> 组合键打开运行对话框。</li>
-<li>输入 <code>regedit</code> 并按下 Enter 键，以打开注册表编辑器。</li>
-</ul>
-</li>
-<li>
-<p><strong>导航到系统时钟设置</strong>： 在注册表编辑器中，转到以下路径：</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Copy code</span><br><span class="line">HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced</span><br></pre></td></tr></tbody></table></figure>
-</li>
-<li>
-<p><strong>创建新的 DWORD（32位）值</strong>：</p>
-<ul>
-<li>在右侧窗格中，右键单击空白处，选择 "New"（新建）-&gt; "DWORD (32-bit) Value"（32位 DWORD 值）。</li>
-<li>将新创建的 DWORD 命名为 <code>ShowSecondsInSystemClock</code>，然后按 Enter 键。</li>
-</ul>
-</li>
-<li>
-<p><strong>设置数值数据</strong>：</p>
-<ul>
-<li>双击 <code>ShowSecondsInSystemClock</code>，以编辑它的数值数据。</li>
-<li>在数值数据框中，将数值数据设置为 <code>1</code>，然后点击 "OK"。</li>
-</ul>
-</li>
-<li>
-<p><strong>重新启动资源管理器</strong>：</p>
-<ul>
-<li>按下 <code>Ctrl + Shift + Esc</code> 组合键打开任务管理器。</li>
-<li>在 "Processes"（进程）选项卡中，找到并右键单击 "Windows Explorer"（Windows资源管理器）进程，然后选择 "Restart"（重启）。</li>
-</ul>
-</li>
-<li>
-<p><strong>查看修改后的效果</strong>： 现在，系统托盘中的时钟应该会显示秒数了。</p>
-</li>
-</ol>
-<p>请注意，修改注册表可能会对系统产生意外影响，因此在进行任何修改之前，请务必备份您的注册表。此外，这些更改可能会在未来的 Windows 更新中被覆盖，所以要注意系统更新。</p>
-
-  </article>
-
-  <!-- prev and next -->
-  <div class="flex justify-between mt-4 pt-4
-    border-t border-[var(--c-sep)] text-sm
-    gap-2 text-[var(--c-50)]
-  ">
-    <div>
-      
-        <a href="/2023/09/16/%E9%98%B2%E6%AD%A2arp%E6%AC%BA%E9%AA%97%E7%9A%84%E6%96%B9%E6%B3%95/"
-          class="
-            transition-all
-            flex justify-center
-            hover:-translate-x-1
-            hover:text-[var(--c-80)]
-          ">
-          <iconify-icon width="20" icon="mingcute:left-fill" data-inline="false">
-          </iconify-icon>
-          防止arp欺骗的方法
-        </a>
-      
-    </div>
-    <div>
-      
-        <a href="/2023/05/22/SublimeText4%E6%BF%80%E6%B4%BB%E6%95%99%E7%A8%8B/"
-          class="
-            flex
-            justify-center
-            hover:translate-x-1
-            transition-transform
-            hover:text-[var(--c-100)]
-          "
-        >
-          SublimeText4激活教程
-          <iconify-icon width="20" icon="mingcute:right-fill" data-inline="false"></iconify-icon>
-        </a>
-      
-    </div>
-  </div>
-
-  <!-- comment -->
-  <div class="article-comments mt-12">
-    
-
-  </div>
+  
 </section>
-<!-- js inspect -->
 
-<script src="/lib/clipboard.min.js"></script>
+<div class="border-t">
 
-
-<script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    "HTML-CSS": {
-        preferredFont: "TeX",
-        availableFonts: ["STIX","TeX"],
-        linebreaks: { automatic:true },
-        EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
-    },
-    tex2jax: {
-        inlineMath: [ ["$", "$"], ["\\(","\\)"] ],
-        processEscapes: true,
-        ignoreClass: "tex2jax_ignore|dno",
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    },
-    TeX: {
-        equationNumbers: { autoNumber: "AMS" },
-        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } },
-        Macros: { href: "{}" }
-    },
-    messageStyle: "none"
-  });
-</script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Queue(function() {
-      var all = MathJax.Hub.getAllJax(), i;
-      for (i=0; i < all.length; i += 1) {
-          all[i].SourceElement().parentNode.className += ' has-jax';
-      }
-  });
-</script>
+</div>
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-<script>
-  $(document).ready(() => {
-    const maraidConfig = {
-      theme: "default",
-      logLevel: 3,
-      flowchart: { curve: "linear" },
-      gantt: { axisFormat: "%m/%d/%Y" },
-      sequence: { actorMargin: 50 },
-    };
-    mermaid.initialize(maraidConfig);
-  });
-</script>
-
-
-
-<script src="/lib/fancybox/fancybox.umd.min.js"></script>
-
-<script>
-  $(document).ready(() => {
-    $('.post-content').each(function(i){
-      $(this).find('img').each(function(){
-        if ($(this).parent().hasClass('fancybox') || $(this).parent().is('a')) return;
-        var alt = this.alt;
-        var title = this.title;
-        if (alt) $(this).after('<span class="fancybox-alt">' + alt + '</span>');
-        if (title) $(this).after('<span class="fancybox-title">' + title + '</span>');
-        $(this).wrap('<a class="fancybox-img" href="' + this.src + '" data-fancybox=\"gallery\" data-caption="' + alt + '"></a>')
-      });
-      $(this).find('.fancybox').each(function(){
-        $(this).attr('rel', 'article' + i);
-      });
-    });
-
-    Fancybox.bind('[data-fancybox="gallery"]', {
-        // options
-    })
-  })
-</script>
-
-<!-- tocbot begin -->
-
-<script src="/lib/tocbot/tocbot.min.js"></script>
-
-<script>
-  $(document).ready(() => {
-      tocbot.init({
-        // Where to render the table of contents.
-        tocSelector: '.post-toc',
-        // Where to grab the headings to build the table of contents.
-        contentSelector: '.post-content',
-        // Which headings to grab inside of the contentSelector element.
-        headingSelector: 'h1, h2, h3',
-        // For headings inside relative or absolute positioned containers within content.
-        hasInnerContainers: true,
-    });
-  })
-</script>
-<!-- tocbot end -->
 
   </main>
   <footer class="flex flex-col mt-12 mb-12 items-center

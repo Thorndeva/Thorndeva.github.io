@@ -26,7 +26,7 @@
   <meta name="keywords" content="Thorn Logs,刺,Natural Language Processing,Artificial Intelligence">
 
 
-<title>SublimeText4激活教程（Win+Mac） | Thorn Logs</title>
+<title>Tag: filter | Thorn Logs</title>
 
 
 
@@ -732,73 +732,142 @@
   </div>
 </div>
   <main>
-    <!-- css -->
+    <!--
+This page has two versions, which is shown is based on whether current page
+is "tag".
 
-<link rel="stylesheet" href="/lib/fancybox/fancybox.min.css">
+  - url:'http://localhost:4000/tag/' return false.
+- url:'http://localhost:4000/tags/test/' return true.
 
-  
-<link rel="stylesheet" href="/lib/tocbot/tocbot.min.css">
+The '/tag/' page shows all tags and is where you land on when you click
+on the "Tags" in the navigation bar. Otherwise if you enter 'tags' by clicking on of the tag elements in some
+posts, and it shows all posts with that tag.
 
-    <!-- toc -->
-    
-  <!-- tocbot -->
-<nav class="post-toc toc text-sm w-40 relative top-32 right-4 opacity-70 hidden lg:block" style="position: fixed !important;"></nav>
+To add a "Tags" page.
 
+1. hexo new page "tag"
+2. cd source/tag/index.md
+3. Add the following front matter.
 
-<section class="px-6 max-w-prose mx-auto md:px-0">
-  <!-- Post header before content -->
-  <header class="py-4">
-    <div class="flex flex-col gap-2 pt-4 md:pt-6">
-      <!-- Title -->
-      <div id="article-title" class="leading-snug">
-        <p class="text-3xl font-bold text-[var(--c-100)] mb-4">SublimeText4激活教程（Win+Mac）</p>
+---
+title: '''tag'''
+date: 2019-06-09 09:56:49
+layout: tag
+---
+-->
+
+  <!-- 已经选择了一个tag，显示一个 tag 的所有 post -->
+  <div class="mt-6">
+    <div class="flex flex-wrap gap-1 justify-center items-center">
+      <iconify-icon width="24" icon="mingcute:tag-fill"></iconify-icon>
+      <div class="text-xl align-middle">
+        Tag:
       </div>
-      <!-- Meta data -->
-      <div>
-        <section class="
-          flex flex-col gap-x-2 gap-y-1 text-sm text-[var(--c-100)]">
-          <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
-            <!-- Dates -->
-            <div class="flex items-center gap-1">
-              <iconify-icon width="18" icon="mingcute:add-circle-fill" ></iconify-icon>
-              Created: <time class="w-max">2023-05-22</time>
-            </div>
-            <div class="flex items-center gap-1">
-              <iconify-icon width="18" icon="mingcute:refresh-3-fill" ></iconify-icon>
-              Edited: <time class="w-max">2024-02-17</time>
-            </div>
-          </div>
-          <div class="flex flex-wrap items-center gap-x-3 gap-y-3">
-            <!-- Author -->
+      <div
+      class="
+        tag
+        px-2
+        py-[1px]
+        text-xl
+        rounded-full
+        pointer-events-none
+      ">
+        #filter
+      </div>
+  </div>
+  <section class="px-2 py-8 max-w-prose mx-auto gap-4 grid grid-cols-1">
+  
+  
+    
+    <!-- Large text showing the year in the background -->
+    
+      <div class="relative pointer-events-none h-[30px]">
+        <div class="absolute -top-6 w-[100%]">
+          <p class="
+            text-clip overflow-hidden -translate-x-3 text-9xl
+            font-extrabold
+            text-[#42b883]
+            opacity-10
+            dark:opacity-20">
+            2024
+          </p>
+        </div>
+      </div>
+    
+    <!-- The post -->
+    <div class="w-full">
+      <!-- One post item in a list -->
+<div class="
+    post-container
+    px-2 py-2
+    flex flex-col gap-3">
+    <div class="flex flex-row gap-4">
+        
+            <div class="flex flex-col gap-1">
+                <!-- Post title -->
+                <a href="/2024/02/17/%E8%A7%A3%E5%86%B3hexo%E4%B8%AD%E6%9C%80%E8%BF%91%E6%96%87%E7%AB%A0filter%E6%8A%A5%E9%94%99/">
+                    <h2 class="
+                        text-[var(--c-80)]
+                        font-bold
+                        text-xl
+                        hover:text-[#42b883]
+                        transition-all
+                        hover:underline">
+                        解决hexo中最近文章filter报错
+                    </h2>
+                </a>
+            <!-- Post excerpt -->
             
-              <span class="flex items-center gap-1 group">
-                <iconify-icon width="18" icon="mingcute:user-edit-fill" ></iconify-icon>
-                <p>Thorn`刺</p>
-              </span>
-            
-
-            <!-- Word count -->
-            <span class="flex items-center gap-1">
-              <iconify-icon width="18" icon="mingcute:book-2-fill" ></iconify-icon>
-              <span>284 words, 1 min</span>
+            </div>
+        </div>
+        <!-- Post Statistics -->
+        <div class="flex flex-wrap items-center gap-x-2 text-sm
+            text-[var(--c-70)]">
+            <span class="flex flex-row items-center gap-1 group">
+                <iconify-icon width="16"
+                    icon="mingcute:add-circle-fill"></iconify-icon>
+                <time class="w-max">
+                    2024-02-17
+                </time>
+            </span>
+            <span class="flex flex-row items-center gap-1 group">
+                <iconify-icon width="16"
+                    icon="mingcute:refresh-3-fill"></iconify-icon>
+                <time class="w-max">
+                    2024-02-17
+                </time>
+            </span>
+            <span class="flex flex-row items-center gap-1 group">
+                <iconify-icon width="16"
+                    icon="mingcute:book-2-fill"></iconify-icon>
+                <p class="w-max">
+                    331 words, 1 min
+                </p>
             </span>
             <!-- Categories -->
+            <span class="flex flex-row items-center gap-1 group">
+                
+                    <iconify-icon class="
+                            group-hover:scale-125
+                            transition-transform
+                            group-hover:text-[#42b883]
+                        "
+                        width="16"
+                        icon="mingcute:classify-2-fill" class="mr-0">
+                    </iconify-icon>
+                    
+                        <a class="underline underline-offset-2"
+                            href="/categories/website/">
+                            Website
+                        </a>
+                    
+                
+            </span>
+        </div>
+        <!-- Tags -->
+        <div>
             
-              <!-- <span class="text-gray-400">·</span> -->
-              <span class="flex flex-row items-center gap-1 group hover:underline">
-                <iconify-icon class="transition-all group-hover:scale-125 mr-0"
-                  width="18"
-                  icon="mingcute:classify-2-fill">
-                </iconify-icon>
-                <a class="article-category-link" href="/categories/software/">Software</a>
-              </span>
-            
-          </div>
-        </section>
-      </div>
-      <!-- tags -->
-      <div>
-        
+                
 <div class="flex flex-wrap gap-1">
   
     
@@ -820,6 +889,24 @@
         technology
       </a>
     
+      <a href="/tags/hexo/"
+        class="
+          tag
+          text-sm
+          rounded-full
+          px-[5px]
+          border-[1px]
+          border-[#42b883]
+          text-[#42b883]
+          bg-[var(--c-0)]
+          dark:bg-[var(--c-0)]
+          dark:drop-shadow-none
+          hover:bg-[#42b883]
+          hover:text-[var(--c-0)]
+        ">
+        hexo
+      </a>
+    
       <a href="/tags/website/"
         class="
           tag
@@ -838,7 +925,7 @@
         website
       </a>
     
-      <a href="/tags/editor/"
+      <a href="/tags/filter/"
         class="
           tag
           text-sm
@@ -853,10 +940,10 @@
           hover:bg-[#42b883]
           hover:text-[var(--c-0)]
         ">
-        editor
+        filter
       </a>
     
-      <a href="/tags/online/"
+      <a href="/tags/javascript/"
         class="
           tag
           text-sm
@@ -871,248 +958,24 @@
           hover:bg-[#42b883]
           hover:text-[var(--c-0)]
         ">
-        online
-      </a>
-    
-      <a href="/tags/activation/"
-        class="
-          tag
-          text-sm
-          rounded-full
-          px-[5px]
-          border-[1px]
-          border-[#42b883]
-          text-[#42b883]
-          bg-[var(--c-0)]
-          dark:bg-[var(--c-0)]
-          dark:drop-shadow-none
-          hover:bg-[#42b883]
-          hover:text-[var(--c-0)]
-        ">
-        activation
-      </a>
-    
-      <a href="/tags/sublime-text-4/"
-        class="
-          tag
-          text-sm
-          rounded-full
-          px-[5px]
-          border-[1px]
-          border-[#42b883]
-          text-[#42b883]
-          bg-[var(--c-0)]
-          dark:bg-[var(--c-0)]
-          dark:drop-shadow-none
-          hover:bg-[#42b883]
-          hover:text-[var(--c-0)]
-        ">
-        sublime text 4
+        javascript
       </a>
     
   
 </div>
-      </div>
+            
+        </div>
+</div>
     </div>
-  </header>
-  <!-- content -->
-  <article class="post-content prose m-auto dark:prose-invert">
-    <h3 id="下载与安装指南">下载与安装指南</h3>
-<h4 id="Sublime-Text-官方网站">Sublime Text 官方网站</h4>
-<p>请前往Sublime Text官方网站进行下载和安装。</p>
-<ul>
-<li><a target="_blank" rel="noopener" href="https://www.sublimetext.com/">官方网站链接</a></li>
-<li>当前版本：4143 (发布日期：2023.7.21)</li>
-</ul>
-<hr>
-<h3 id="Windows平台激活方法">Windows平台激活方法</h3>
-<h4 id="免费激活流程">免费激活流程</h4>
-<ol>
-<li>打开以下网站：<a target="_blank" rel="noopener" href="https://www.hexed.it/">点击跳转</a></li>
-<li>具体操作步骤如下：
-<ol>
-<li>打开 <code>sublime_text.exe</code>。</li>
-<li>在搜索框中输入 <strong>807805000f94c1</strong>，并将其替换为 <strong>c64005014885c9</strong>，注意不要包含任何空格。</li>
-<li>另存为文件名为 "sublime_text.exe"，并覆盖原文件即可。搜索文件名</li>
-</ol>
-</li>
-<li><strong>验证激活状态</strong>：在Sublime Text中点击“Help” -&gt; “About Sublime XX”进行检验。</li>
-</ol>
-<p><strong>注意：</strong> 以上方法已经过验证，确保可用。</p>
-<hr>
-<h3 id="Mac平台激活方法">Mac平台激活方法</h3>
-<p>激活Sublime Text的步骤与Windows平台相同。</p>
-<ol>
-<li>
-<p>下载并安装应用程序 “Hex Fiend”。</p>
-<ul>
-<li><a target="_blank" rel="noopener" href="https://hexfiend.com/">官方网站链接</a></li>
-</ul>
-</li>
-<li>
-<p>打开Hex Fiend，并将Sublime_text拖入Hex Fiend中。</p>
-</li>
-<li>
-<p>在搜索框中输入 <strong>807805000f94c1</strong>，并替换为 <strong>c64005014885c9</strong>，确保不带有任何空格。</p>
-</li>
-<li>
-<p>保存并退出编辑。</p>
-</li>
-<li>
-<p>在Terminal中，进入Sublime Text的目录：</p>
-<figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> Sublime\ Text目录路径/</span><br></pre></td></tr></tbody></table></figure>
-</li>
-<li>
-<p>移除Sublime Text的签名：</p>
-<figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">codesign <span class="literal">--remove-signature</span> Sublime\ Text.app/</span><br></pre></td></tr></tbody></table></figure>
-</li>
-</ol>
-<p><strong>请注意：</strong> 以上方法尚未亲自验证。</p>
-
-  </article>
-
-  <!-- prev and next -->
-  <div class="flex justify-between mt-4 pt-4
-    border-t border-[var(--c-sep)] text-sm
-    gap-2 text-[var(--c-50)]
-  ">
-    <div>
-      
-        <a href="/2023/06/08/%E5%A6%82%E4%BD%95%E8%AE%A9Win11%E7%B3%BB%E7%BB%9F%E6%89%98%E7%9B%98%E6%98%BE%E7%A4%BA%E7%A7%92%E6%95%B0/"
-          class="
-            transition-all
-            flex justify-center
-            hover:-translate-x-1
-            hover:text-[var(--c-80)]
-          ">
-          <iconify-icon width="20" icon="mingcute:left-fill" data-inline="false">
-          </iconify-icon>
-          如何让Win11系统托盘显示秒数
-        </a>
-      
-    </div>
-    <div>
-      
-        <a href="/2023/05/22/%E8%A7%A3%E5%86%B3Restorator%E8%BD%AF%E4%BB%B6%E2%80%9C%E4%B8%8D%E6%94%AF%E6%8C%81%E6%8E%A5%E5%8F%A3%E2%80%9D/"
-          class="
-            flex
-            justify-center
-            hover:translate-x-1
-            transition-transform
-            hover:text-[var(--c-100)]
-          "
-        >
-          解决Restorator软件“不支持接口”
-          <iconify-icon width="20" icon="mingcute:right-fill" data-inline="false"></iconify-icon>
-        </a>
-      
-    </div>
-  </div>
-
-  <!-- comment -->
-  <div class="article-comments mt-12">
-    
-
-  </div>
+  
 </section>
-<!-- js inspect -->
 
-<script src="/lib/clipboard.min.js"></script>
+<div class="border-t">
 
-
-<script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    "HTML-CSS": {
-        preferredFont: "TeX",
-        availableFonts: ["STIX","TeX"],
-        linebreaks: { automatic:true },
-        EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
-    },
-    tex2jax: {
-        inlineMath: [ ["$", "$"], ["\\(","\\)"] ],
-        processEscapes: true,
-        ignoreClass: "tex2jax_ignore|dno",
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    },
-    TeX: {
-        equationNumbers: { autoNumber: "AMS" },
-        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } },
-        Macros: { href: "{}" }
-    },
-    messageStyle: "none"
-  });
-</script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Queue(function() {
-      var all = MathJax.Hub.getAllJax(), i;
-      for (i=0; i < all.length; i += 1) {
-          all[i].SourceElement().parentNode.className += ' has-jax';
-      }
-  });
-</script>
+</div>
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-<script>
-  $(document).ready(() => {
-    const maraidConfig = {
-      theme: "default",
-      logLevel: 3,
-      flowchart: { curve: "linear" },
-      gantt: { axisFormat: "%m/%d/%Y" },
-      sequence: { actorMargin: 50 },
-    };
-    mermaid.initialize(maraidConfig);
-  });
-</script>
-
-
-
-<script src="/lib/fancybox/fancybox.umd.min.js"></script>
-
-<script>
-  $(document).ready(() => {
-    $('.post-content').each(function(i){
-      $(this).find('img').each(function(){
-        if ($(this).parent().hasClass('fancybox') || $(this).parent().is('a')) return;
-        var alt = this.alt;
-        var title = this.title;
-        if (alt) $(this).after('<span class="fancybox-alt">' + alt + '</span>');
-        if (title) $(this).after('<span class="fancybox-title">' + title + '</span>');
-        $(this).wrap('<a class="fancybox-img" href="' + this.src + '" data-fancybox=\"gallery\" data-caption="' + alt + '"></a>')
-      });
-      $(this).find('.fancybox').each(function(){
-        $(this).attr('rel', 'article' + i);
-      });
-    });
-
-    Fancybox.bind('[data-fancybox="gallery"]', {
-        // options
-    })
-  })
-</script>
-
-<!-- tocbot begin -->
-
-<script src="/lib/tocbot/tocbot.min.js"></script>
-
-<script>
-  $(document).ready(() => {
-      tocbot.init({
-        // Where to render the table of contents.
-        tocSelector: '.post-toc',
-        // Where to grab the headings to build the table of contents.
-        contentSelector: '.post-content',
-        // Which headings to grab inside of the contentSelector element.
-        headingSelector: 'h1, h2, h3',
-        // For headings inside relative or absolute positioned containers within content.
-        hasInnerContainers: true,
-    });
-  })
-</script>
-<!-- tocbot end -->
 
   </main>
   <footer class="flex flex-col mt-12 mb-12 items-center

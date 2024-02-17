@@ -26,7 +26,7 @@
   <meta name="keywords" content="Thorn Logs,刺,Natural Language Processing,Artificial Intelligence">
 
 
-<title>如何让Win11系统托盘显示秒数 | Thorn Logs</title>
+<title>解决hexo中最近文章filter报错 | Thorn Logs</title>
 
 
 
@@ -741,13 +741,17 @@
 
     <!-- toc -->
     
+  <!-- tocbot -->
+<nav class="post-toc toc text-sm w-40 relative top-32 right-4 opacity-70 hidden lg:block" style="position: fixed !important;"></nav>
+
+
 <section class="px-6 max-w-prose mx-auto md:px-0">
   <!-- Post header before content -->
   <header class="py-4">
     <div class="flex flex-col gap-2 pt-4 md:pt-6">
       <!-- Title -->
       <div id="article-title" class="leading-snug">
-        <p class="text-3xl font-bold text-[var(--c-100)] mb-4">如何让Win11系统托盘显示秒数</p>
+        <p class="text-3xl font-bold text-[var(--c-100)] mb-4">解决hexo中最近文章filter报错</p>
       </div>
       <!-- Meta data -->
       <div>
@@ -757,7 +761,7 @@
             <!-- Dates -->
             <div class="flex items-center gap-1">
               <iconify-icon width="18" icon="mingcute:add-circle-fill" ></iconify-icon>
-              Created: <time class="w-max">2023-06-08</time>
+              Created: <time class="w-max">2024-02-17</time>
             </div>
             <div class="flex items-center gap-1">
               <iconify-icon width="18" icon="mingcute:refresh-3-fill" ></iconify-icon>
@@ -776,7 +780,7 @@
             <!-- Word count -->
             <span class="flex items-center gap-1">
               <iconify-icon width="18" icon="mingcute:book-2-fill" ></iconify-icon>
-              <span>382 words, 1 min</span>
+              <span>331 words, 1 min</span>
             </span>
             <!-- Categories -->
             
@@ -786,7 +790,7 @@
                   width="18"
                   icon="mingcute:classify-2-fill">
                 </iconify-icon>
-                <a class="article-category-link" href="/categories/windows/">Windows</a>
+                <a class="article-category-link" href="/categories/website/">Website</a>
               </span>
             
           </div>
@@ -816,7 +820,7 @@
         technology
       </a>
     
-      <a href="/tags/setup/"
+      <a href="/tags/hexo/"
         class="
           tag
           text-sm
@@ -831,10 +835,10 @@
           hover:bg-[#42b883]
           hover:text-[var(--c-0)]
         ">
-        setup
+        hexo
       </a>
     
-      <a href="/tags/win11/"
+      <a href="/tags/website/"
         class="
           tag
           text-sm
@@ -849,10 +853,10 @@
           hover:bg-[#42b883]
           hover:text-[var(--c-0)]
         ">
-        win11
+        website
       </a>
     
-      <a href="/tags/taskbar/"
+      <a href="/tags/filter/"
         class="
           tag
           text-sm
@@ -867,10 +871,10 @@
           hover:bg-[#42b883]
           hover:text-[var(--c-0)]
         ">
-        taskbar
+        filter
       </a>
     
-      <a href="/tags/optimization/"
+      <a href="/tags/javascript/"
         class="
           tag
           text-sm
@@ -885,7 +889,7 @@
           hover:bg-[#42b883]
           hover:text-[var(--c-0)]
         ">
-        optimization
+        javascript
       </a>
     
   
@@ -895,45 +899,18 @@
   </header>
   <!-- content -->
   <article class="post-content prose m-auto dark:prose-invert">
-    <p>在 Windows 11 中，默认情况下，系统托盘中的时钟只显示小时和分钟，并没有显示秒数的选项。但是，您可以通过修改注册表来实现在系统托盘中显示秒数。请按照以下步骤进行操作：</p>
+    <p>在 JavaScript 开发中，经常会遇到由于调用未定义对象或数组而引发的错误，例如在hexo项目开发中出现最近文章filter报错的问题。器本文将深入分析此类错误，并提供解决方法。</p>
+<h2 id="问题描述">问题描述</h2>
+<p>错误信息提示我们的问题出现在 <code>index.ejs</code> 文件的第 65 行，具体是在以下代码处：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;%- partial('_partial/post-list', {</span><br><span class="line">    posts: page.posts.filter(post =&gt; post.featured),</span><br><span class="line">    show_tags: false</span><br><span class="line">}) %&gt;</span><br></pre></td></tr></tbody></table></figure>
 <ol>
-<li>
-<p><strong>打开注册表编辑器</strong>：</p>
-<ul>
-<li>按下 <code>Win + R</code> 组合键打开运行对话框。</li>
-<li>输入 <code>regedit</code> 并按下 Enter 键，以打开注册表编辑器。</li>
-</ul>
-</li>
-<li>
-<p><strong>导航到系统时钟设置</strong>： 在注册表编辑器中，转到以下路径：</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Copy code</span><br><span class="line">HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced</span><br></pre></td></tr></tbody></table></figure>
-</li>
-<li>
-<p><strong>创建新的 DWORD（32位）值</strong>：</p>
-<ul>
-<li>在右侧窗格中，右键单击空白处，选择 "New"（新建）-&gt; "DWORD (32-bit) Value"（32位 DWORD 值）。</li>
-<li>将新创建的 DWORD 命名为 <code>ShowSecondsInSystemClock</code>，然后按 Enter 键。</li>
-</ul>
-</li>
-<li>
-<p><strong>设置数值数据</strong>：</p>
-<ul>
-<li>双击 <code>ShowSecondsInSystemClock</code>，以编辑它的数值数据。</li>
-<li>在数值数据框中，将数值数据设置为 <code>1</code>，然后点击 "OK"。</li>
-</ul>
-</li>
-<li>
-<p><strong>重新启动资源管理器</strong>：</p>
-<ul>
-<li>按下 <code>Ctrl + Shift + Esc</code> 组合键打开任务管理器。</li>
-<li>在 "Processes"（进程）选项卡中，找到并右键单击 "Windows Explorer"（Windows资源管理器）进程，然后选择 "Restart"（重启）。</li>
-</ul>
-</li>
-<li>
-<p><strong>查看修改后的效果</strong>： 现在，系统托盘中的时钟应该会显示秒数了。</p>
-</li>
+<li>错误信息中提到了 <code>Cannot read properties of undefined (reading 'filter')</code>，这表明 <code>page.posts</code> 是 <code>undefined</code>，而 <code>undefined</code> 是没有 <code>filter</code> 方法的。</li>
 </ol>
-<p>请注意，修改注册表可能会对系统产生意外影响，因此在进行任何修改之前，请务必备份您的注册表。此外，这些更改可能会在未来的 Windows 更新中被覆盖，所以要注意系统更新。</p>
+<h2 id="解决方法">解决方法</h2>
+<p>要解决这个问题，我们需要确保 <code>page.posts</code> 存在且是一个数组，然后再调用 <code>filter</code> 方法。为此，我们应该在代码中添加一些检查以确保安全地访问 <code>page.posts</code>。</p>
+<h2 id="代码示例">代码示例</h2>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;% if (page.posts) { %&gt;</span><br><span class="line">    &lt;!-- List of featured posts --&gt;</span><br><span class="line">    &lt;%- partial('_partial/post-list', { </span><br><span class="line">        posts: page.posts.filter(post =&gt; post.featured),</span><br><span class="line">        show_tags: false</span><br><span class="line">    }) %&gt;</span><br><span class="line">&lt;% } %&gt;</span><br></pre></td></tr></tbody></table></figure>
+<p>通过上述更改，我们添加了一个条件语句，在 <code>page.posts</code> 存在且为数组时才会执行 <code>filter</code> 方法。这样就避免了在 <code>undefined</code> 上调用 <code>filter</code> 方法而导致的错误。保存更改后，重新加载页面或重新编译您的项目，应该就可以解决这个错误了。</p>
 
   </article>
 
@@ -944,22 +921,10 @@
   ">
     <div>
       
-        <a href="/2023/09/16/%E9%98%B2%E6%AD%A2arp%E6%AC%BA%E9%AA%97%E7%9A%84%E6%96%B9%E6%B3%95/"
-          class="
-            transition-all
-            flex justify-center
-            hover:-translate-x-1
-            hover:text-[var(--c-80)]
-          ">
-          <iconify-icon width="20" icon="mingcute:left-fill" data-inline="false">
-          </iconify-icon>
-          防止arp欺骗的方法
-        </a>
-      
     </div>
     <div>
       
-        <a href="/2023/05/22/SublimeText4%E6%BF%80%E6%B4%BB%E6%95%99%E7%A8%8B/"
+        <a href="/2024/02/17/%E8%A7%A3%E5%86%B3Vercel%E5%92%8CCloudflare%E7%9A%84%E9%87%8D%E5%AE%9A%E5%90%91%E9%94%99%E8%AF%AF/"
           class="
             flex
             justify-center
@@ -968,7 +933,7 @@
             hover:text-[var(--c-100)]
           "
         >
-          SublimeText4激活教程
+          解决Vercel和Cloudflare的重定向错误
           <iconify-icon width="20" icon="mingcute:right-fill" data-inline="false"></iconify-icon>
         </a>
       

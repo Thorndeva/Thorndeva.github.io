@@ -4,9 +4,42 @@
   
     
     <entry>
-      <title>解决Vercel+Cloudflare的重定向错误</title>
-      <link href="/2024/02/17/%E8%A7%A3%E5%86%B3Vercel+Cloudflare%E7%9A%84%E9%87%8D%E5%AE%9A%E5%90%91%E9%94%99%E8%AF%AF/"/>
-      <url>/2024/02/17/%E8%A7%A3%E5%86%B3Vercel+Cloudflare%E7%9A%84%E9%87%8D%E5%AE%9A%E5%90%91%E9%94%99%E8%AF%AF/</url>
+      <title>解决hexo中最近文章filter报错</title>
+      <link href="/2024/02/17/%E8%A7%A3%E5%86%B3hexo%E4%B8%AD%E6%9C%80%E8%BF%91%E6%96%87%E7%AB%A0filter%E6%8A%A5%E9%94%99/"/>
+      <url>/2024/02/17/%E8%A7%A3%E5%86%B3hexo%E4%B8%AD%E6%9C%80%E8%BF%91%E6%96%87%E7%AB%A0filter%E6%8A%A5%E9%94%99/</url>
+      
+        <content type="html"><![CDATA[<p>在 JavaScript 开发中，经常会遇到由于调用未定义对象或数组而引发的错误，例如在hexo项目开发中出现最近文章filter报错的问题。器本文将深入分析此类错误，并提供解决方法。</p><h2 id="问题描述">问题描述</h2><p>错误信息提示我们的问题出现在 <code>index.ejs</code> 文件的第 65 行，具体是在以下代码处：</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;%- partial('_partial/post-list', {</span><br><span class="line">    posts: page.posts.filter(post =&gt; post.featured),</span><br><span class="line">    show_tags: false</span><br><span class="line">}) %&gt;</span><br></pre></td></tr></tbody></table></figure><ol><li>错误信息中提到了 <code>Cannot read properties of undefined (reading 'filter')</code>，这表明 <code>page.posts</code> 是 <code>undefined</code>，而 <code>undefined</code> 是没有 <code>filter</code> 方法的。</li></ol><h2 id="解决方法">解决方法</h2><p>要解决这个问题，我们需要确保 <code>page.posts</code> 存在且是一个数组，然后再调用 <code>filter</code> 方法。为此，我们应该在代码中添加一些检查以确保安全地访问 <code>page.posts</code>。</p><h2 id="代码示例">代码示例</h2><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;% if (page.posts) { %&gt;</span><br><span class="line">    &lt;!-- List of featured posts --&gt;</span><br><span class="line">    &lt;%- partial('_partial/post-list', { </span><br><span class="line">        posts: page.posts.filter(post =&gt; post.featured),</span><br><span class="line">        show_tags: false</span><br><span class="line">    }) %&gt;</span><br><span class="line">&lt;% } %&gt;</span><br></pre></td></tr></tbody></table></figure><p>通过上述更改，我们添加了一个条件语句，在 <code>page.posts</code> 存在且为数组时才会执行 <code>filter</code> 方法。这样就避免了在 <code>undefined</code> 上调用 <code>filter</code> 方法而导致的错误。保存更改后，重新加载页面或重新编译您的项目，应该就可以解决这个错误了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Website </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> technology </tag>
+            
+            <tag> hexo </tag>
+            
+            <tag> website </tag>
+            
+            <tag> filter </tag>
+            
+            <tag> javascript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>解决Vercel和Cloudflare的重定向错误</title>
+      <link href="/2024/02/17/%E8%A7%A3%E5%86%B3Vercel%E5%92%8CCloudflare%E7%9A%84%E9%87%8D%E5%AE%9A%E5%90%91%E9%94%99%E8%AF%AF/"/>
+      <url>/2024/02/17/%E8%A7%A3%E5%86%B3Vercel%E5%92%8CCloudflare%E7%9A%84%E9%87%8D%E5%AE%9A%E5%90%91%E9%94%99%E8%AF%AF/</url>
       
         <content type="html"><![CDATA[<p>在使用 Vercel 和 Cloudflare 的组合时，有时会出现 "ERR_TOO_MANY_REDIRECTS" 错误，这可能是由于配置问题导致的重定向循环。以下是解决该错误的专业技术方法：</p><h2 id="进入Cloudflare控制面板">进入Cloudflare控制面板</h2><ol><li>使用您的 Cloudflare 账户登录 Cloudflare 控制面板。</li></ol><h2 id="调整SSL-TLS设置">调整SSL/TLS设置</h2><ol><li>在 Cloudflare 控制面板中，点击您有问题的域名。</li><li>打开左侧的 SSL/TLS 设置。</li><li>在 Overview 中，将加密模式设置为 "Full" 或 "Full (strict)"。</li></ol><h2 id="检查DNS设置">检查DNS设置</h2><ol><li>在 Cloudflare 控制面板中，转到 DNS 设置页面。</li><li>找到您有问题的记录，并检查 Proxy status 是否设置为 Proxied。</li><li>如果是，暂时将 Proxy 设置为 "DNS only"，然后点击右下角的保存。</li></ol><h2 id="清除DNS缓存并更换DNS服务器">清除DNS缓存并更换DNS服务器</h2><ol><li>使用 nslookup 查询您的域名，确认是否仍然显示 Cloudflare 的 IP 地址。</li><li>如果仍然显示 Cloudflare 的 IP 地址，请尝试清除 DNS 缓存。Windows 用户可以执行命令 <code>ipconfig /flushdns</code> 来清除 DNS 缓存。</li><li>如果问题仍然存在，考虑更换 DNS 服务器为 dns.google 或者 8.8.8.8 / 8.8.4.4。Google DNS 的记录更新速度非常快。</li></ol><h2 id="测试并重新设置Proxy">测试并重新设置Proxy</h2><ol><li>测试访问您的网站，确认是否已经解决问题。</li><li>如果一切正常，可以重新将 Proxy 设置为 "Proxied"。</li></ol><p>通过以上专业技术方法，您应该能够解决 Vercel 和 Cloudflare 的重定向错误 "ERR_TOO_MANY_REDIRECTS"。如果问题仍然存在，请考虑进一步检查您的网站配置，并可能需要联系 Cloudflare 和 Vercel 的技术支持团队以获取进一步帮助。</p>]]></content>
       
@@ -319,7 +352,7 @@
       <link href="/2023/11/25/%E4%BD%BF%E7%94%A8Oh-My-Posh%E9%85%8D%E7%BD%AE%E7%BE%8E%E5%8C%96%E7%BB%88%E7%AB%AF/"/>
       <url>/2023/11/25/%E4%BD%BF%E7%94%A8Oh-My-Posh%E9%85%8D%E7%BD%AE%E7%BE%8E%E5%8C%96%E7%BB%88%E7%AB%AF/</url>
       
-        <content type="html"><![CDATA[<p>Windows默认终端显得单调，而Windows 11自带终端Windows Terminal更简便。我们可利用业余时间美化系统终端。本文分享了Oh-My-Posh终端美化和PowerShell实践心得，为大家提供经验，减少冗余步骤。内容参考<a href="https://zhuanlan.zhihu.com/p/354603010">知乎文章</a>。</p><p>首先是安装Power Shell 7</p><h2 id="安装Power-Shell-7">安装Power Shell 7</h2><blockquote><p>这里推荐使用命令行进行安装</p></blockquote><p>在PowerShell中输入以下命令：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">winget search Microsoft.PowerShell</span><br></pre></td></tr></tbody></table></figure><p>得到以下结果：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Name               Id                           Version Source</span><br><span class="line"><span class="literal">---------------------------------------------------------------</span></span><br><span class="line"></span><br><span class="line">PowerShell         Microsoft.PowerShell         <span class="number">7.2</span>.<span class="number">6.0</span> winget</span><br><span class="line">PowerShell Preview Microsoft.PowerShell.Preview <span class="number">7.3</span>.<span class="number">0.6</span> winget</span><br></pre></td></tr></tbody></table></figure><p>选择<code>非preview</code>版进行安装：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">winget install <span class="literal">--id</span> Microsoft.Powershell <span class="literal">--source</span> winget</span><br></pre></td></tr></tbody></table></figure><p>等待安装完成后，再安装Oh-My-Posh。</p><h2 id="安装Oh-My-Posh">安装Oh-My-Posh</h2><p>使用PowerShell 7运行以下命令安装Oh-My-Posh：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">winget install JanDeDobbeleer.OhMyPosh <span class="literal">-s</span> winget</span><br></pre></td></tr></tbody></table></figure><p>等待安装完成后，以<code>管理员权限</code>重启终端。</p><p>安装Nerd字体，推荐安装Cascadia Code，这个字体兼容性较好。在Windows Terminal的设置中将字体改为Cascadia Code：默认值 &gt;&gt; 外观 &gt;&gt; 字体。</p><p>如果安装了VSCode，美化设置会自动同步到内置终端。</p><p>使用命令打开PowerShell 7的配置文件。文件应为空白，写入下面代码并保存：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">oh</span><span class="literal">-my-posh</span> init pwsh <span class="literal">--config</span> <span class="string">"<span class="variable">$env:POSH_THEMES_PATH</span>/fish.omp.json"</span> | <span class="built_in">Invoke-Expression</span></span><br></pre></td></tr></tbody></table></figure><p>这里将主题改为<code>fish</code>，你可以通过命令查看主题，然后在配置文件中更改相应的主题名称。到这里基本配置完成，你还可以在设置中调整亚克力效果、背景图等效果。</p>]]></content>
+        <content type="html"><![CDATA[<p>Windows默认终端显得单调，而Windows 11自带终端Windows Terminal更简便。我们可利用业余时间美化系统终端。本文分享了Oh-My-Posh终端美化和PowerShell实践心得，为大家提供经验，减少冗余步骤。内容参考<a href="https://zhuanlan.zhihu.com/p/354603010">知乎文章</a>。</p><p>首先是安装Power Shell 7</p><h2 id="安装Power-Shell-7">安装Power Shell 7</h2><blockquote><p>这里推荐使用命令行进行安装</p></blockquote><p>在PowerShell中输入以下命令：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">winget search Microsoft.PowerShell</span><br></pre></td></tr></tbody></table></figure><p>得到以下结果：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Name               Id                           Version Source</span><br><span class="line"><span class="literal">---------------------------------------------------------------</span></span><br><span class="line"></span><br><span class="line">PowerShell         Microsoft.PowerShell         <span class="number">7.2</span>.<span class="number">6.0</span> winget</span><br><span class="line">PowerShell Preview Microsoft.PowerShell.Preview <span class="number">7.3</span>.<span class="number">0.6</span> winget</span><br></pre></td></tr></tbody></table></figure><p>选择<code>非preview</code>版进行安装：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">winget install <span class="literal">--id</span> Microsoft.Powershell <span class="literal">--source</span> winget</span><br></pre></td></tr></tbody></table></figure><p>等待安装完成后，再安装Oh-My-Posh。</p><h2 id="安装Oh-My-Posh">安装Oh-My-Posh</h2><p>使用PowerShell 7运行以下命令安装Oh-My-Posh：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">winget install JanDeDobbeleer.OhMyPosh <span class="literal">-s</span> winget</span><br></pre></td></tr></tbody></table></figure><p>等待安装完成后，以<code>管理员权限</code>重启终端。</p><p>安装Nerd字体，推荐安装<a href="https://www.nerdfonts.com/">Cascadia Code</a>，这个字体兼容性较好。在Windows Terminal的设置中将字体改为Cascadia Code：默认值 &gt;&gt; 外观 &gt;&gt; 字体。</p><p>如果安装了VSCode，美化设置会自动同步到内置终端。</p><p>使用命令打开PowerShell 7的配置文件。文件应为空白，写入下面代码并保存：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">oh</span><span class="literal">-my-posh</span> init pwsh <span class="literal">--config</span> <span class="string">"<span class="variable">$env:POSH_THEMES_PATH</span>/fish.omp.json"</span> | <span class="built_in">Invoke-Expression</span></span><br></pre></td></tr></tbody></table></figure><p>这里将主题改为<code>fish</code>，你可以通过命令查看主题，然后在配置文件中更改相应的主题名称。到这里基本配置完成，你还可以在设置中调整亚克力效果、背景图等效果。</p>]]></content>
       
       
       <categories>
@@ -418,9 +451,9 @@
       
         <tags>
             
-            <tag> cmd </tag>
-            
             <tag> windows </tag>
+            
+            <tag> cmd </tag>
             
             <tag> desktop </tag>
             
@@ -457,9 +490,9 @@
             
             <tag> setup </tag>
             
-            <tag> regedit </tag>
-            
             <tag> error </tag>
+            
+            <tag> regedit </tag>
             
             <tag> anti-virus </tag>
             
@@ -602,9 +635,9 @@
     
     
     <entry>
-      <title>SublimeText4激活教程（Win+Mac）</title>
-      <link href="/2023/05/22/SublimeText4%E6%BF%80%E6%B4%BB%E6%95%99%E7%A8%8B%EF%BC%88Win+Mac%EF%BC%89/"/>
-      <url>/2023/05/22/SublimeText4%E6%BF%80%E6%B4%BB%E6%95%99%E7%A8%8B%EF%BC%88Win+Mac%EF%BC%89/</url>
+      <title>SublimeText4激活教程</title>
+      <link href="/2023/05/22/SublimeText4%E6%BF%80%E6%B4%BB%E6%95%99%E7%A8%8B/"/>
+      <url>/2023/05/22/SublimeText4%E6%BF%80%E6%B4%BB%E6%95%99%E7%A8%8B/</url>
       
         <content type="html"><![CDATA[<h3 id="下载与安装指南">下载与安装指南</h3><h4 id="Sublime-Text-官方网站">Sublime Text 官方网站</h4><p>请前往Sublime Text官方网站进行下载和安装。</p><ul><li><a href="https://www.sublimetext.com/">官方网站链接</a></li><li>当前版本：4143 (发布日期：2023.7.21)</li></ul><hr><h3 id="Windows平台激活方法">Windows平台激活方法</h3><h4 id="免费激活流程">免费激活流程</h4><ol><li>打开以下网站：<a href="https://www.hexed.it/">点击跳转</a></li><li>具体操作步骤如下：<ol><li>打开 <code>sublime_text.exe</code>。</li><li>在搜索框中输入 <strong>807805000f94c1</strong>，并将其替换为 <strong>c64005014885c9</strong>，注意不要包含任何空格。</li><li>另存为文件名为 "sublime_text.exe"，并覆盖原文件即可。搜索文件名</li></ol></li><li><strong>验证激活状态</strong>：在Sublime Text中点击“Help” -&gt; “About Sublime XX”进行检验。</li></ol><p><strong>注意：</strong> 以上方法已经过验证，确保可用。</p><hr><h3 id="Mac平台激活方法">Mac平台激活方法</h3><p>激活Sublime Text的步骤与Windows平台相同。</p><ol><li><p>下载并安装应用程序 “Hex Fiend”。</p><ul><li><a href="https://hexfiend.com/">官方网站链接</a></li></ul></li><li><p>打开Hex Fiend，并将Sublime_text拖入Hex Fiend中。</p></li><li><p>在搜索框中输入 <strong>807805000f94c1</strong>，并替换为 <strong>c64005014885c9</strong>，确保不带有任何空格。</p></li><li><p>保存并退出编辑。</p></li><li><p>在Terminal中，进入Sublime Text的目录：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> Sublime\ Text目录路径/</span><br></pre></td></tr></tbody></table></figure></li><li><p>移除Sublime Text的签名：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">codesign <span class="literal">--remove-signature</span> Sublime\ Text.app/</span><br></pre></td></tr></tbody></table></figure></li></ol><p><strong>请注意：</strong> 以上方法尚未亲自验证。</p>]]></content>
       
