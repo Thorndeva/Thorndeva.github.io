@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Sourcetree使用教程</title>
+      <link href="/2024/02/15/Sourcetree%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+      <url>/2024/02/15/Sourcetree%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<p>SourceTree 是一款强大的 Git 和 Mercurial 客户端工具，为用户提供了直观、易用的界面，使版本控制变得简单易懂。本教程将介绍如何安装、配置和使用 SourceTree，帮助您快速上手并充分利用其功能。</p><span id="more"></span><p><strong>目录：</strong></p><ol><li>安装 SourceTree</li><li>配置 SourceTree</li><li>创建代码仓库</li><li>克隆远程仓库</li><li>进行提交和推送</li><li>处理分支</li><li>进行合并</li><li>查看历史记录</li><li>使用 SourceTree 的高级功能</li></ol><p><strong>1. 安装 SourceTree：</strong></p><ul><li>下载 SourceTree 安装程序并运行。</li><li>按照安装向导中的指示进行安装。</li><li>安装完成后，启动 SourceTree。</li></ul><p><strong>2. 配置 SourceTree：</strong></p><ul><li>首次启动 SourceTree 后，您需要登录您的 Atlassian 帐户或创建一个新帐户。</li><li>配置您的 Git 或 Mercurial 设置，包括用户名和电子邮件地址。</li></ul><p><strong>3. 创建代码仓库：</strong></p><ul><li>在 SourceTree 中，单击“新建”按钮。</li><li>选择创建一个新的仓库并填写所需信息。</li><li>确认创建，即可完成代码仓库的建立。</li></ul><p><strong>4. 克隆远程仓库：</strong></p><ul><li>在 SourceTree 中，选择“克隆/新建”。</li><li>输入远程仓库的 URL 和目标路径。</li><li>单击“克隆”按钮，等待克隆完成。</li></ul><p><strong>5. 进行提交和推送：</strong></p><ul><li>在 SourceTree 中，将您的更改添加到暂存区。</li><li>编写提交消息并提交更改。</li><li>如果需要，推送您的更改到远程仓库。</li></ul><p><strong>6. 处理分支：</strong></p><ul><li>在 SourceTree 中，可以方便地创建、切换、合并和删除分支。</li><li>切换分支以在不同的开发线上工作。</li></ul><p><strong>7. 进行合并：</strong></p><ul><li>在 SourceTree 中，使用合并功能将不同分支的更改合并到一起。</li><li>处理可能出现的合并冲突。</li></ul><p><strong>8. 查看历史记录：</strong></p><ul><li>使用 SourceTree 的历史记录功能查看提交历史和版本演变。</li><li>可以比较不同版本之间的差异。</li></ul><p><strong>9. 使用 SourceTree 的高级功能：</strong></p><ul><li>SourceTree 还提供了许多高级功能，如标签管理、重置历史、搜索和过滤等功能。</li><li>探索并利用这些功能，以提高您的版本控制工作效率。</li></ul><p>通过本教程，您将学会如何安装、配置和使用 SourceTree，从而更高效地管理您的代码仓库，并利用其强大的功能来简化版本控制过程。</p><h2 id="附录">附录</h2><ul><li>Sourcetree官网：<a href="https://www.sourcetreeapp.com/">https://www.sourcetreeapp.com/</a></li><li>更多教程说明：<a href="https://confluence.atlassian.com/get-started-with-sourcetree/install-sourcetree-847359094.html">Install Sourcetree | Atlassian Documentation</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+            <tag> sourcetree </tag>
+            
+            <tag> mercurial </tag>
+            
+            <tag> code submission </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2024龙年大吉</title>
+      <link href="/2024/02/11/2024%E9%BE%99%E5%B9%B4%E5%A4%A7%E5%90%89/"/>
+      <url>/2024/02/11/2024%E9%BE%99%E5%B9%B4%E5%A4%A7%E5%90%89/</url>
+      
+        <content type="html"><![CDATA[<center>在苍穹之巅🌤️，</center><center>岁月轮回，星河流转🌠。</center><center>2024，龙年🐉降临。</center><center>神龙展翅，翱翔天际。</center><center>🧨🧨🧨</center><center>驭风驰骋，涌动潮流。</center><center>引领时代，辉煌征程🚀。</center><center>🎉🎉🎉</center><center>We Need Design，翱翔远航⛵！</center><center>创意之火🔥，点燃苍穹。</center><center>挑战征途，勇往直前🏄‍♂️！</center><center>2024，岁月如诗。</center><center>祝愿您，幸福如意！</center><center>岁岁祥瑞，事事如愿。</center><center>龙年祥瑞，百事兴旺！</center><center>🧧🧧🧧</center><p><img src="/2024/02/11/2024%E9%BE%99%E5%B9%B4%E5%A4%A7%E5%90%89/poster.webp" alt="2024龙驭九洲，再创辉煌！"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Life </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> life </tag>
+            
+            <tag> 春节 </tag>
+            
+            <tag> 龙年 </tag>
+            
+            <tag> 祝福 </tag>
+            
+            <tag> 春节-Spring-Festival </tag>
+            
+            <tag> 龙年-Year-of-the-Dragon </tag>
+            
+            <tag> W.N.D设计导航 </tag>
+            
+            <tag> We Need Design设计导航 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>解决PS2020 Adobe CC报错</title>
+      <link href="/2023/12/16/%E8%A7%A3%E5%86%B3PS2020%20Adobe%20CC%E6%8A%A5%E9%94%99/"/>
+      <url>/2023/12/16/%E8%A7%A3%E5%86%B3PS2020%20Adobe%20CC%E6%8A%A5%E9%94%99/</url>
+      
+        <content type="html"><![CDATA[<p>在安装Adobe系列软件后，通常会自带一个<strong>Adobe Creative Cloud软件</strong>。然而，对许多用户来说，这个软件可能并不是必需的，因此他们可能会选择将其卸载。然而，一旦卸载了Adobe Creative Cloud，每次打开Photoshop 2020时都会出现一个提示，指示需要Adobe Creative Cloud来解决问题，但往往用户并不需要这个软件。本文将介绍如何解决这个问题的替代方案。</p><p><strong>解决方案：</strong></p><ol><li><strong>关闭报错窗口并打开任务管理器：</strong> 可以通过右键点击任务栏，或者按下Ctrl+Shift+Esc快捷键来打开任务管理器。在任务管理器中切换到进程选项卡。</li><li><strong>找到Creative Cloud进程：</strong> 在进程列表中找到名为"Creative Cloud"的进程，这通常是报错窗口所对应的进程。需要注意的是，在关闭报错窗口之前，此进程可能不会显示。右键点击该进程，并选择"打开文件所在的位置"。</li><li><strong>删除相应文件：</strong> 找到打开的文件目录，在其中找到名为"Adobe Desktop Service.exe"的文件，并将其删除。在删除之前确保已关闭报错窗口，以免文件被系统占用。</li><li><strong>重启PS2020：</strong> 完成以上步骤后，重新启动Photoshop 2020即可，此时应该不再出现报错窗口。</li></ol><p>通过执行以上步骤，可以解决每次打开Photoshop 2020时出现的提示窗口问题，而无需重新安装Adobe Creative Cloud软件。这种方法既简单又有效，可以节省用户的时间和精力。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> adobe </tag>
+            
+            <tag> photoshop </tag>
+            
+            <tag> design </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Blogosphere博客旅程启航</title>
+      <link href="/2023/12/10/Blogosphere%E5%8D%9A%E5%AE%A2%E6%97%85%E7%A8%8B%E5%90%AF%E8%88%AA/"/>
+      <url>/2023/12/10/Blogosphere%E5%8D%9A%E5%AE%A2%E6%97%85%E7%A8%8B%E5%90%AF%E8%88%AA/</url>
+      
+        <content type="html"><![CDATA[<p>欢迎来到我的博客！在这里，我将记录我的思考、感悟和发现，与你分享我的生活和工作经历。这是我的第一篇博客，也是我在这个数字世界中的第一步，让我们一起开始这段新的旅程吧！</p><span id="more"></span><h3 id="搭建博客的第一步">搭建博客的第一步</h3><p>搭建博客是我一直以来的梦想之一。我想要一个属于自己的空间，在这里，我可以表达自己的想法，分享我的知识，与读者交流。于是，我决定开始我的博客之旅。</p><h3 id="选择平台">选择平台</h3><p>在开始之前，我进行了一番研究，寻找了适合我的博客平台。我需要一个简单易用，功能丰富的平台，能够满足我的需求，同时也能展现我的个性。最终，我选择了一个符合我要求的平台，准备开始我的搭建之旅。</p><h3 id="搭建过程">搭建过程</h3><p>在选择搭建博客的平台后，接下来是搭建过程。对于一个初学者来说，这可能是一个挑战，但同时也是一个学习的过程。我查阅了大量的教程和文档，学习了基本的网站开发知识，最终成功地搭建了我的第一个博客。</p><h3 id="设计风格">设计风格</h3><p>博客的设计风格对我来说非常重要。我希望我的博客既简洁大方，又能够突出我的个性。因此，在选择主题和布局时，我花了很多时间，不断调整和修改，直到找到了我满意的设计风格。</p><h3 id="写作计划">写作计划</h3><p>最后，我制定了自己的写作计划。我决定每周至少发布一篇新的博客文章，内容涵盖技术、生活、旅行等方面。同时，我也会定期更新博客的外观和功能，以提升用户体验。</p><h3 id="结语">结语</h3><p>搭建博客是一次充满挑战和乐趣的旅程。我相信，在未来的日子里，我会不断地学习和成长，不断地完善我的博客，让它变得更加完美。我希望我的博客能够成为一个有价值的平台，能够为读者带来启发和帮助。让我们一起，开启这段新的旅程，探索未知的世界！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Life </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> life </tag>
+            
+            <tag> City </tag>
+            
+            <tag> start </tag>
+            
+            <tag> winter </tag>
+            
+            <tag> research </tag>
+            
+            <tag> technology </tag>
+            
+            <tag> thornlogs </tag>
+            
+            <tag> programming </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>解决Win10网络适配器后缀问题</title>
+      <link href="/2023/11/29/%E8%A7%A3%E5%86%B3Win10%E7%BD%91%E7%BB%9C%E9%80%82%E9%85%8D%E5%99%A8%E5%90%8E%E7%BC%80%E9%97%AE%E9%A2%98/"/>
+      <url>/2023/11/29/%E8%A7%A3%E5%86%B3Win10%E7%BD%91%E7%BB%9C%E9%80%82%E9%85%8D%E5%99%A8%E5%90%8E%E7%BC%80%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<p>在Windows 10中，有时网络适配器的名称会出现数字后缀（如#2、#3、#4）或者以太网（Ethernet）/无线局域网（WLAN）后缀（如以太网2、WLAN2），这可能会导致混淆和不便。本文将介绍如何通过注册表编辑来手动删除这些后缀，解决这一问题。</p><p><strong>具体操作步骤：</strong></p><ol><li><strong>打开注册表编辑器</strong>：<ul><li>使用快捷键组合“Win + R”打开运行窗口，输入“regedit”，然后点击“确定”打开注册表编辑器。</li></ul></li><li><strong>导航到指定位置</strong>：<ul><li>依次展开以下注册表路径：HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Profiles。</li></ul></li><li><strong>删除不必要的网络文件夹</strong>：<ul><li>在左侧窗口中找到注册表位置中的网络文件夹，如网络1、网络2、网络3等。</li><li>除了保留当前正在使用的网络文件夹外，删除其他的网络文件夹。</li></ul></li><li><strong>保存并关闭注册表编辑器</strong>：<ul><li>在完成删除操作后，点击注册表编辑器顶部菜单中的“文件”，选择“退出”保存并关闭注册表编辑器。</li></ul></li><li><strong>重启计算机</strong>：<ul><li>重启计算机以使更改生效。</li></ul></li></ol><p><strong>注意事项：</strong></p><ul><li>在编辑注册表时务必小心谨慎，确保只删除不必要的网络文件夹，避免删除系统所需的关键信息。</li><li>在进行任何操作前，请务必备份注册表以防意外发生。</li><li>如果不确定如何操作注册表，请尽量避免直接编辑，或者寻求专业人士的帮助。</li></ul><p>通过上述步骤，你可以轻松解决Windows 10中网络适配器名称中数字后缀及以太网/WLAN后缀的问题，提升系统的可用性和易用性。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> network </tag>
+            
+            <tag> wLAN </tag>
+            
+            <tag> regedit </tag>
+            
+            <tag> 以太网 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>PS2020导出ICO文件技巧</title>
+      <link href="/2023/11/28/PS2020%E5%AF%BC%E5%87%BAICO%E6%96%87%E4%BB%B6%E6%8A%80%E5%B7%A7/"/>
+      <url>/2023/11/28/PS2020%E5%AF%BC%E5%87%BAICO%E6%96%87%E4%BB%B6%E6%8A%80%E5%B7%A7/</url>
+      
+        <content type="html"><![CDATA[<p>在设计图标时，ICO（Windows图标）格式是常见的文件格式，用于在Windows操作系统中显示图标。然而，Photoshop 2020版默认并不提供直接导出ICO文件的功能。幸运的是，借助第三方插件，如ICOFormat，您可以在Photoshop中轻松导出ICO文件。本文将介绍如何使用Photoshop 2020版导出ICO文件，并深入了解ICOFormat插件的功能和用法。</p><p><strong>步骤一：下载和安装ICOFormat插件</strong> 首先，您需要从网络上下载ICOFormat插件的安装文件。确保选择与您的Photoshop 2020版版本兼容的插件版本。下载完成后，解压缩文件并将插件文件复制到Photoshop的插件目录中。然后重新启动Photoshop，使插件生效。</p><p><strong>步骤二：准备图标设计文件</strong> 在Photoshop中打开您的图标设计文件。确保每个图标都位于单独的图层中，并且已经调整好了所需的尺寸和样式。如果您需要创建不同尺寸的ICO文件，建议您准备好适合不同尺寸的图标。</p><p><strong>步骤三：导出ICO文件</strong> 选择“文件”菜单中的“存储为”选项。在保存对话框中，将文件类型设置为“ICO (Windows图标)”。您将看到ICOFormat插件的选项。在插件界面中，您可以选择包含的图标尺寸和位深度等参数。一旦您完成了参数设置，点击“保存”按钮，即可将图标导出为ICO文件。</p><p><strong>步骤四：使用ICO文件</strong> 完成导出后，您将获得ICO格式的图标文件。您可以将这些ICO文件用于Windows操作系统中的文件夹、应用程序图标等。请注意，ICO文件通常包含多个尺寸的图标，以适应不同分辨率的显示设备。</p><p><strong>结语：</strong> 借助ICOFormat插件，您可以在Photoshop 2020版中方便地导出ICO文件，以满足Windows操作系统的图标需求。通过按照本文提供的步骤，您可以轻松地创建和导出ICO格式的图标，为您的项目增添独特的视觉效果。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> photoshop </tag>
+            
+            <tag> design </tag>
+            
+            <tag> plugin </tag>
+            
+            <tag> icoformat </tag>
+            
+            <tag> 导出ico文件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>隐藏PowerShell启动版本的提示</title>
+      <link href="/2023/11/26/%E9%9A%90%E8%97%8FPowerShell%E5%90%AF%E5%8A%A8%E7%89%88%E6%9C%AC%E7%9A%84%E6%8F%90%E7%A4%BA/"/>
+      <url>/2023/11/26/%E9%9A%90%E8%97%8FPowerShell%E5%90%AF%E5%8A%A8%E7%89%88%E6%9C%AC%E7%9A%84%E6%8F%90%E7%A4%BA/</url>
+      
+        <content type="html"><![CDATA[<h3 id="隐藏版本信息的方法">隐藏版本信息的方法</h3><p>除了在配置文件中添加 <code>-nologo</code> 参数外，还有其他方法可以隐藏版本信息。例如，可以通过修改注册表或使用其他命令行参数来实现相同的效果。下面是一些其他隐藏版本信息的方法：</p><h4 id="修改注册表">修改注册表</h4><p>通过修改注册表中的相应项，可以永久性地隐藏版本信息。这种方法可能需要管理员权限。</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Set-ItemProperty</span> <span class="literal">-Path</span> <span class="string">"HKCU:\Software\Microsoft\Windows\CurrentVersion\Policies\System"</span> <span class="literal">-Name</span> <span class="string">"DisableCMDRequest"</span> <span class="literal">-Value</span> <span class="number">1</span></span><br></pre></td></tr></tbody></table></figure><h4 id="使用其他命令行参数">使用其他命令行参数</h4><p>除了 <code>-nologo</code> 参数外，还可以使用其他参数来定制终端的外观和行为。例如，可以使用 <code>-NoProfile</code> 参数来禁用加载个人配置文件，或者使用 <code>-Command</code> 参数来指定在启动时执行的命令。</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">powershell.exe <span class="literal">-NoProfile</span></span><br></pre></td></tr></tbody></table></figure><h3 id="定制终端外观和行为">定制终端外观和行为</h3><p>除了隐藏版本信息外，还可以通过其他方式来定制终端的外观和行为，使其更符合个人喜好。例如，可以修改配色方案、更改字体、设置默认启动目录等。</p><h4 id="修改配色方案">修改配色方案</h4><p>通过修改 Windows Terminal 的配置文件，可以轻松地更改配色方案，以使终端更具可读性和美观性。</p><figure class="highlight json"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">"profiles"</span><span class="punctuation">:</span></span><br><span class="line"><span class="punctuation">{</span></span><br><span class="line">    <span class="attr">"defaults"</span><span class="punctuation">:</span></span><br><span class="line">    <span class="punctuation">{</span></span><br><span class="line">        <span class="comment">// 设置默认配色方案</span></span><br><span class="line">        <span class="attr">"colorScheme"</span><span class="punctuation">:</span> <span class="string">"Solarized Light"</span></span><br><span class="line">    <span class="punctuation">}</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">"list"</span><span class="punctuation">:</span></span><br><span class="line">    <span class="punctuation">[</span></span><br><span class="line">        <span class="punctuation">{</span></span><br><span class="line">            <span class="attr">"guid"</span><span class="punctuation">:</span> <span class="string">"{00000000-0000-0000-ba54-000000000001}"</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">"name"</span><span class="punctuation">:</span> <span class="string">"Windows PowerShell"</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">"commandline"</span><span class="punctuation">:</span> <span class="string">"powershell.exe"</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">"hidden"</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">"colorScheme"</span><span class="punctuation">:</span> <span class="string">"Campbell"</span></span><br><span class="line">        <span class="punctuation">}</span><span class="punctuation">,</span></span><br><span class="line">        <span class="comment">// 其他配置项...</span></span><br><span class="line">    <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">}</span></span><br></pre></td></tr></tbody></table></figure><h4 id="更改字体">更改字体</h4><p>通过在配置文件中指定字体名称和大小，可以更改终端中的字体。</p><figure class="highlight json"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">"profiles"</span><span class="punctuation">:</span></span><br><span class="line"><span class="punctuation">{</span></span><br><span class="line">    <span class="attr">"defaults"</span><span class="punctuation">:</span></span><br><span class="line">    <span class="punctuation">{</span></span><br><span class="line">        <span class="comment">// 设置默认字体</span></span><br><span class="line">        <span class="attr">"fontFace"</span><span class="punctuation">:</span> <span class="string">"Consolas"</span><span class="punctuation">,</span></span><br><span class="line">        <span class="attr">"fontSize"</span><span class="punctuation">:</span> <span class="number">12</span></span><br><span class="line">    <span class="punctuation">}</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">"list"</span><span class="punctuation">:</span></span><br><span class="line">    <span class="punctuation">[</span></span><br><span class="line">        <span class="punctuation">{</span></span><br><span class="line">            <span class="attr">"guid"</span><span class="punctuation">:</span> <span class="string">"{00000000-0000-0000-ba54-000000000001}"</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">"name"</span><span class="punctuation">:</span> <span class="string">"Windows PowerShell"</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">"commandline"</span><span class="punctuation">:</span> <span class="string">"powershell.exe"</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">"hidden"</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">            <span class="comment">// 单独为某个配置指定字体</span></span><br><span class="line">            <span class="attr">"fontFace"</span><span class="punctuation">:</span> <span class="string">"Fira Code"</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">"fontSize"</span><span class="punctuation">:</span> <span class="number">14</span></span><br><span class="line">        <span class="punctuation">}</span><span class="punctuation">,</span></span><br><span class="line">        <span class="comment">// 其他配置项...</span></span><br><span class="line">    <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">}</span></span><br></pre></td></tr></tbody></table></figure><h4 id="设置默认启动目录">设置默认启动目录</h4><p>通过修改配置文件，可以指定终端的默认启动目录，这样每次打开终端时就会自动切换到指定的目录。</p><figure class="highlight json"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">"profiles"</span><span class="punctuation">:</span></span><br><span class="line"><span class="punctuation">{</span></span><br><span class="line">    <span class="attr">"defaults"</span><span class="punctuation">:</span></span><br><span class="line">    <span class="punctuation">{</span></span><br><span class="line">        <span class="comment">// 设置默认启动目录</span></span><br><span class="line">        <span class="attr">"startingDirectory"</span><span class="punctuation">:</span> <span class="string">"C:\\Users\\YourUsername\\Projects"</span></span><br><span class="line">    <span class="punctuation">}</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">"list"</span><span class="punctuation">:</span></span><br><span class="line">    <span class="punctuation">[</span></span><br><span class="line">        <span class="punctuation">{</span></span><br><span class="line">            <span class="attr">"guid"</span><span class="punctuation">:</span> <span class="string">"{00000000-0000-0000-ba54-000000000001}"</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">"name"</span><span class="punctuation">:</span> <span class="string">"Windows PowerShell"</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">"commandline"</span><span class="punctuation">:</span> <span class="string">"powershell.exe"</span><span class="punctuation">,</span></span><br><span class="line">            <span class="attr">"hidden"</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span></span><br><span class="line">        <span class="punctuation">}</span><span class="punctuation">,</span></span><br><span class="line">        <span class="comment">// 其他配置项...</span></span><br><span class="line">    <span class="punctuation">]</span></span><br><span class="line"><span class="punctuation">}</span></span><br></pre></td></tr></tbody></table></figure><h3 id="结论">结论</h3><p>通过隐藏版本信息并定制终端的外观和行为，可以使终端更加简洁、美观和易于使用。根据个人喜好和需求，可以选择适合自己的方法来定制终端。这些技巧不仅可以提高工作效率，还可以提升用户体验，使终端成为更加强大和个性化的工具。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> powershell </tag>
+            
+            <tag> windows </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>使用Oh-My-Posh配置美化终端</title>
+      <link href="/2023/11/25/%E4%BD%BF%E7%94%A8Oh-My-Posh%E9%85%8D%E7%BD%AE%E7%BE%8E%E5%8C%96%E7%BB%88%E7%AB%AF/"/>
+      <url>/2023/11/25/%E4%BD%BF%E7%94%A8Oh-My-Posh%E9%85%8D%E7%BD%AE%E7%BE%8E%E5%8C%96%E7%BB%88%E7%AB%AF/</url>
+      
+        <content type="html"><![CDATA[<p>Windows默认终端显得单调，而Windows 11自带终端Windows Terminal更简便。我们可利用业余时间美化系统终端。本文分享了Oh-My-Posh终端美化和PowerShell实践心得，为大家提供经验，减少冗余步骤。内容参考<a href="https://zhuanlan.zhihu.com/p/354603010">知乎文章</a>。</p><p>首先是安装Power Shell 7</p><h2 id="安装Power-Shell-7">安装Power Shell 7</h2><blockquote><p>这里推荐使用命令行进行安装</p></blockquote><p>在PowerShell中输入以下命令：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">winget search Microsoft.PowerShell</span><br></pre></td></tr></tbody></table></figure><p>得到以下结果：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">Name               Id                           Version Source</span><br><span class="line"><span class="literal">---------------------------------------------------------------</span></span><br><span class="line"></span><br><span class="line">PowerShell         Microsoft.PowerShell         <span class="number">7.2</span>.<span class="number">6.0</span> winget</span><br><span class="line">PowerShell Preview Microsoft.PowerShell.Preview <span class="number">7.3</span>.<span class="number">0.6</span> winget</span><br></pre></td></tr></tbody></table></figure><p>选择<code>非preview</code>版进行安装：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">winget install <span class="literal">--id</span> Microsoft.Powershell <span class="literal">--source</span> winget</span><br></pre></td></tr></tbody></table></figure><p>等待安装完成后，再安装Oh-My-Posh。</p><h2 id="安装Oh-My-Posh">安装Oh-My-Posh</h2><p>使用PowerShell 7运行以下命令安装Oh-My-Posh：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">winget install JanDeDobbeleer.OhMyPosh <span class="literal">-s</span> winget</span><br></pre></td></tr></tbody></table></figure><p>等待安装完成后，以<code>管理员权限</code>重启终端。</p><p>安装Nerd字体，推荐安装Cascadia Code，这个字体兼容性较好。在Windows Terminal的设置中将字体改为Cascadia Code：默认值 &gt;&gt; 外观 &gt;&gt; 字体。</p><p>如果安装了VSCode，美化设置会自动同步到内置终端。</p><p>使用命令打开PowerShell 7的配置文件。文件应为空白，写入下面代码并保存：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">oh</span><span class="literal">-my-posh</span> init pwsh <span class="literal">--config</span> <span class="string">"<span class="variable">$env:POSH_THEMES_PATH</span>/fish.omp.json"</span> | <span class="built_in">Invoke-Expression</span></span><br></pre></td></tr></tbody></table></figure><p>这里将主题改为<code>fish</code>，你可以通过命令查看主题，然后在配置文件中更改相应的主题名称。到这里基本配置完成，你还可以在设置中调整亚克力效果、背景图等效果。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> terminal </tag>
+            
+            <tag> powershell </tag>
+            
+            <tag> theme </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>使用SFC和DISM命令修复损坏的系统文件</title>
+      <link href="/2023/11/25/%E4%BD%BF%E7%94%A8SFC%E5%92%8CDISM%E5%91%BD%E4%BB%A4%E4%BF%AE%E5%A4%8D%E6%8D%9F%E5%9D%8F%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6/"/>
+      <url>/2023/11/25/%E4%BD%BF%E7%94%A8SFC%E5%92%8CDISM%E5%91%BD%E4%BB%A4%E4%BF%AE%E5%A4%8D%E6%8D%9F%E5%9D%8F%E7%9A%84%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6/</url>
+      
+        <content type="html"><![CDATA[<p>在Windows系统遇到蓝屏、程序崩溃或功能无法使用的情况下，采用SFC和DISM命令进行系统文件修复是一种有效的技术手段。</p><p>若系统能正常启动，可通过管理命令提示符执行该修复过程。对于无法正常启动的系统，可以考虑从安装介质或恢复光盘启动，进入安全模式或恢复环境进行修复。</p><h2 id="运行SFC命令修复">运行SFC命令修复</h2><p>以下步骤需在Windows系统正常启动的情况下操作。</p><ol><li>使用快捷键<code>Win+X</code>或右键点击<code>开始</code>，选择<code>终端(管理员)</code>。</li><li>在命令提示符中输入<code>sfc /scannow</code>命令，按Enter键执行完整系统扫描并尝试SFC修复。（注：命令后需保留sfc后的空格）</li></ol><p>保持命令提示符窗口打开，直到命令完成，可能需要一些时间。</p><p>正常情况下，若系统文件完整性无问题，将看到消息“<strong>Windows资源保护未发现任何完整性违规。</strong>”</p><p>若出现“Windows资源保护发现损坏的文件但无法修复其中某些文件”消息，请尝试在<code>安全模式</code>重新启动PC并再次运行该命令。如仍失败，可考虑使用安装介质或恢复光盘启动并从那里尝试命令。</p><h2 id="运行DISM命令修复">运行DISM命令修复</h2><p>DISM（部署映像服务和管理工具）命令行工具广泛用于修复和准备Windows映像，包括Windows恢复环境、Windows安装程序和Windows PE。使用DISM可修复操作系统的恢复映像甚至虚拟磁盘（VHD）。</p><p>在介绍DISM修复之前，建议先尝试SFC修复。当SFC无法修复问题时，可通过DISM进一步修复系统文件。</p><h3 id="DISM-CheckHealth选项">DISM CheckHealth选项</h3><p>DISM命令行的<code>/CheckHealth</code>开关用于检测所有损坏文件，执行健康检查，不进行修复。</p><ol><li>使用快捷键<code>Windows + X</code>，选择<code>命令提示符（管理员）</code>。</li><li>在命令行中执行以下检测命令：</li></ol><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">DISM /Online /Cleanup<span class="literal">-Image</span> /CheckHealth</span><br></pre></td></tr></tbody></table></figure><p>按Enter键让DISM检查Windows组件存储是否损坏并自动修复。</p><p>等待命令运行完成，可能需要五到十分钟。若进度条暂时保持在18.5%，是正常现象，请耐心等待。</p><h3 id="DISM-ScanHealth选项">DISM ScanHealth选项</h3><p><code>/ScanHealth</code>开关用于扫描Windows映像文件中损坏的部分。</p><ol><li>使用快捷键<code>Windows + X</code>，选择<code>命令提示符（管理员）</code>。</li><li>在命令行中执行以下扫描命令：</li></ol><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">DISM /Online /Cleanup<span class="literal">-Image</span> /ScanHealth</span><br></pre></td></tr></tbody></table></figure><h3 id="DISM-RestoreHealth选项">DISM RestoreHealth选项</h3><p><code>/RestoreHealth</code>开关在扫描到Windows映像文件中的错误后会自动尝试修复。由于涉及修复过程，执行时间较长，可能需要20分钟左右。</p><ol><li>使用快捷键<code>Windows + X</code>，选择<code>命令提示符（管理员）</code>。</li><li>在命令行中执行以下检测和修复命令：</li></ol><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">DISM /Online /Cleanup<span class="literal">-Image</span> /RestoreHealth</span><br></pre></td></tr></tbody></table></figure><p>在使用DISM命令行的<code>/RestoreHealth</code>或<code>/ScanHealth</code>参数时，进度可能会停留在20%或40%，不要担心，这是正常情况，几分钟之后操作即可完成。</p><p>当执行上述命令时，DISM将自动尝试使用Windows Update来替换已损坏的文件。若Windows Update组件存在问题，则需指定正常的Windows映像（.wim）作为修复源。</p><h3 id="指定DISM修复源">指定DISM修复源</h3><p>DISM支持在使用<code>/RestoreHealth</code>参数的同时使用<code>/Source</code>来指定系统映像作为修复源。建议下载官方Windows 10 ISO，并提取其中的<code>install.wim</code>文件作为修复源。</p><ol><li>使用快捷键<code>Windows + X</code>，选择<code>命令提示符（管理员）</code>。</li><li>在命令行中执行以下检测和修复命令：</li></ol><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">DISM /Online /Cleanup<span class="literal">-Image</span> /RestoreHealth /Source:文件路径install.wim</span><br></pre></td></tr></tbody></table></figure><p>以上方法也可直接使用Windows 10安装媒体中的<code>install.wim</code>文件作为修复源，而不通过Windows Update进行修复。</p><h2 id="DISM配合使用install-ESD文件">DISM配合使用install.ESD文件</h2><p>可将<code>install.esd</code>作为修复源，与<code>install.wim</code>使用方式相同。如果从早期版本升级到Windows 10或直接下载过<code>install.esd</code>文件，也可将其与DISM命令配合使用。由于<code>install.esd</code>只是<code>install.wim</code>文件的加密版本，因此使用方式完全相同，只是扩展名变化。同时，DISM将相关日志文件写入%windir%/Logs/CBS/CBS.log。</p><p>在Windows 7及更早版本中，DISM命令不可用。在此情况下，可从Microsoft下载并运行System</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> windows </tag>
+            
+            <tag> sfc </tag>
+            
+            <tag> dism </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Nuxt框架安装报错解决方案</title>
+      <link href="/2023/11/23/nuxt%E6%A1%86%E6%9E%B6%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+      <url>/2023/11/23/nuxt%E6%A1%86%E6%9E%B6%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
+      
+        <content type="html"><![CDATA[<h2 id="简介">简介</h2><p>在安装部署Nuxt框架时，可能会遇到一些报错，例如运行<code>yarn dev</code>命令时出现错误。本文将介绍如何解决此类问题。</p><h2 id="问题现象">问题现象</h2><p>安装完Nuxt框架后，运行<code>yarn dev</code>命令出现错误</p><h2 id="解决方案">解决方案</h2><p>此类报错通常是由于<code>package.json</code>文件配置不正确导致。只需在<code>scripts</code>字段中添加以下代码即可解决：</p><figure class="highlight json"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">{</span></span><br><span class="line">  <span class="attr">"build"</span><span class="punctuation">:</span> <span class="string">"source .env.production &amp;&amp; nuxt build"</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">"dev"</span><span class="punctuation">:</span> <span class="string">"nuxt dev --dotenv .env.local"</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">"generate"</span><span class="punctuation">:</span> <span class="string">"nuxt generate"</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">"preview"</span><span class="punctuation">:</span> <span class="string">"nuxt preview"</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">"postinstall"</span><span class="punctuation">:</span> <span class="string">"nuxt prepare"</span></span><br><span class="line"><span class="punctuation">}</span></span><br></pre></td></tr></tbody></table></figure><p>添加上述代码后，再次运行<code>yarn dev</code>命令即可恢复正常。</p><h2 id="其他注意事项">其他注意事项</h2><ol><li><strong>检查语法</strong>：确保代码语法标准，包括空格、标点符号、字母大小写等。</li><li><strong>检查版本兼容性</strong>：确保Nuxt框架版本与其他依赖项兼容。如果版本过低或不兼容，建议更新版本修复已知 bug。</li><li><strong>检查组件安装</strong>：确保所有引用的组件都已安装。如果组件丢失，可以重新安装。</li><li><strong>检查镜像源</strong>：如果是使用国外镜像，建议切换到国内镜像以提高下载速度。</li><li><strong>检查文件目录结构</strong>：确保文件目录结构正确，避免因文件错放导致找不到文件而报错。</li></ol><h2 id="总结">总结</h2><p>本文介绍了Nuxt框架安装报错的解决方案以及其他需要注意的事项。希望本文能够帮助您解决相关问题。</p><h2 id="附录">附录</h2><ul><li>Nuxt官方文档：<a href="https://nuxtjs.org/docs/">https://nuxtjs.org/docs/</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Website </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> nuxt </tag>
+            
+            <tag> website </tag>
+            
+            <tag> frame </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Markdown使用说明</title>
+      <link href="/2023/09/16/Markdown%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/"/>
+      <url>/2023/09/16/Markdown%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>这是一篇关于讲解如何正确使用<strong>Markdown</strong>的排版示例，希望通过此，大家都能轻松上手，都能通过<strong>Markdown</strong> 能够让自己的文章有更加出色、更清晰明了的排版。</p></blockquote><h2 id="什么是-Markdown">什么是 Markdown</h2><p>Markdown (MD) 是现在普遍使用的一种文档书写语言格式，只需用一些非常简单易记的符号，如（# * / &gt; [] ()\ ），就可以轻松写出一篇具有良好的排版和可读性的文章。</p><h2 id="语法示例">语法示例</h2><h3 id="1-基本语法">1.基本语法</h3><p>一些常规的语法格式。</p><h4 id="1-1-标题">1.1 标题</h4><p>标题用#+空格表示，不同数量的#可以表示不同的标题</p><p># Heading 1</p><p>## Heading 2</p><p>### Heading 3</p><p>#### Heading 4</p><p>##### Heading 5</p><p>###### Heading 6</p><h4 id="1-2-粗体和斜体粗体">1.2 粗体和斜体粗体</h4><p>在需要操作的文字前后各加三个“*”</p><p><strong>这个是粗体</strong>斜体：在需要斜体的文字前后各加一个“*”</p><p><em>这个是斜体</em>用粗体加斜体：在需要操作的文字前后各加三个“*”</p><p><em><strong>这个是粗体加斜体</strong></em></p><h4 id="1-3-删除线删除线语法">1.3 删除线删除线语法</h4><p>在需要删除的文字前后各使用两个符合“~~”<s>要删除的文字</s></p><h4 id="1-4-引用">1.4 引用</h4><p>符号“&gt;”后面书写文字。示例：</p><blockquote><p>这个是引用</p></blockquote><h4 id="1-5-目录">1.5 目录</h4><p>可通过：@[toc](目录) 生成目录。</p><h4 id="1-6-空行">1.6 空行</h4><p>如需空行，则可\ +回车换行。</p><h3 id="2-LaTeX公式">2.LaTeX公式</h3><p>LaTeX数学公式有两种：行中公式和独立公式（行间公式）。行中公式放在文中与其它文字混编，独立公式单独成行。</p><h4 id="2-1-行内公式">2.1 行内公式</h4><p><code>$=mc^2$</code></p><p>$=mc^2$</p><h4 id="2-2-独立公式">2.2 独立公式</h4><p><code>$$=mc^2$$</code></p><p>$$=mc^2$$</p><p>更多语法参考：<a href="https://blog.51cto.com/51ctoblog/2847177">Markdown 编辑器添加 Latex数学公式教程</a></p><h3 id="3-代码高亮">3.代码高亮</h3><h4 id="3-1-普通">3.1 普通</h4><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*emphasize*    **strong**</span><br><span class="line">_emphasize_    __strong__</span><br><span class="line">@a = 1</span><br></pre></td></tr></tbody></table></figure><p><em>emphasize</em>     <strong>strong</strong></p><h4 id="3-2-语法高亮支持">3.2 语法高亮支持</h4><p>如果在 ``` 后面跟随语言名称，可以有语法高亮的效果，如:</p><h5 id="3-2-1-html-xml-代码高亮示例">3.2.1 html/xml 代码高亮示例</h5><figure class="highlight html"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"X-UA-Compatible"</span> <span class="attr">content</span>=<span class="string">"IE=edge"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"viewport"</span> <span class="attr">content</span>=<span class="string">"width=device-width, initial-scale=1.0"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>Document<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span>  </span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></tbody></table></figure><h5 id="3-2-2-Python高亮示例">3.2.2 Python高亮示例</h5><figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/python3</span></span><br><span class="line"><span class="comment"># Fibonacci series: 斐波纳契数列</span></span><br><span class="line"><span class="comment"># 两个元素的总和确定了下一个数</span></span><br><span class="line">a, b = <span class="number">0</span>, <span class="number">1</span></span><br><span class="line"><span class="keyword">while</span> b &lt; <span class="number">10</span>:</span><br><span class="line">    <span class="built_in">print</span>(b)</span><br><span class="line">    a, b = b, a+b</span><br></pre></td></tr></tbody></table></figure><h5 id="3-2-3-CSS-文件示例">3.2.3 CSS 文件示例</h5><figure class="highlight css"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">body</span> {</span><br><span class="line">    <span class="attribute">background-color</span>: red;</span><br><span class="line">}</span><br><span class="line"><span class="selector-tag">h1</span> {</span><br><span class="line">    <span class="attribute">color</span>: orange;</span><br><span class="line">    <span class="attribute">text-align</span>: center;</span><br><span class="line">}</span><br><span class="line"><span class="selector-tag">p</span> {</span><br><span class="line">    <span class="attribute">font-family</span>: <span class="string">"Times New Roman"</span>;</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">20px</span>;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure><blockquote><p>支持语言有: <code>HTML/XML</code>, <code>JSON</code>, <code>Bash</code>, <code>CSS</code>, <code>Java</code>, <code>JavaScript</code>, <code>PHP</code>, <code>Python</code>, <code>Rust</code>, <code>C/C++</code> …</p></blockquote><h3 id="4-绘制表格">4.绘制表格</h3><blockquote><p>|Column 1|Column 2|Column 3|或者CTRL+T</p></blockquote><p>|-------- |-----: |:----:|</p><p>|cell 1|cell 2|cell 3|</p><p>|cell 4|cell 5|cell 6|</p><table><thead><tr><th>cell 7</th><th>cell 8</th><th>cell 9</th></tr></thead><tbody><tr><td></td><td></td><td></td></tr></tbody></table><h3 id="5-Todo列表">5.Todo列表</h3><p>语法：</p><blockquote><p>- [ ] <strong>在Blog写一篇技术博客</strong></p></blockquote><blockquote><p>- [x] 5分钟搞定俄罗斯方块---组件化实战</p></blockquote><blockquote><p>- [x] 服务早期红利与各项技术场景创新分析</p></blockquote><p>显示：</p><ul class="contains-task-list"><li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="" type="checkbox"> <strong>在Blog写一篇技术博客</strong></p></li><li class="task-list-item"><p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> 5分钟搞定俄罗斯方块---组件化实战</p></li><li class="task-list-item"><p><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> 服务早期红利与各项技术场景创新分析</p></li></ul><h3 id="6-链接">6.链接</h3><p>支持直接粘贴链接地址。链接语法和显示如下：</p><p>语法1：<code>[链接名称](http://链接网址)</code></p><p>显示：<a href="http://xn--ses510ahtve0t">链接名称</a></p><p>或语法2：<code>&lt;http://链接网址&gt;</code></p><p>显示：<a href="http://xn--ses510ahtve0t">http://链接网址</a></p><h3 id="7-图片">7. 图片</h3><p>可通过上传按钮上传图片，也支持直接粘贴图片，也支持拖拽上传图片。图片语法和显示如下：</p><p>语法：<code>![请添加链接描述](图片地址)</code></p><p>显示：![请添加链接描述](图片地址)</p><h3 id="8-有序列表-有序列表">8. 有序列表&amp;有序列表</h3><p>无序列表的使用，在符号“-”后加空格使用。如下：</p><ul><li><p>列表项</p></li><li><p>列表项</p></li><li><p>列表项</p></li></ul><p>如果要控制列表的层级，则需要在符号“-”前使用空格。如下：</p><ul><li><p>列表项</p></li><li><p>列表项</p><ul><li><p>列表内容</p></li><li><p>列表内容</p></li></ul></li></ul><p>有序列表的使用，在数字及符号“.”后加空格几个，如下：</p><ol><li><p>列表项</p></li><li><p>列表项</p><ol><li><p>列表内容</p></li><li><p>列表内容</p><ol><li><p>子列表内容</p></li><li><p>子列表内容</p></li><li><p>子列表内容</p></li></ol></li></ol></li></ol><h3 id="9-分割线">9. 分割线</h3><p>可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，同时需要在分隔线的上面空一行。</p><p>例：</p><p><code>-------</code></p><p><code>*****</code></p><p><code>______</code></p><hr><hr><hr><h3 id="10-符号转义">10. 符号转义</h3><p>如果你的描述中需要用到 markdown 的符号，比如 <code># *</code> 等，但又不想它被转义，这时候可以在这些符号前加反斜杠，如 <code>\ # * </code>进行避免。</p><h3 id="11-导入和导出">11. 导入和导出</h3><p>支持正文导出<code>.md</code>的文档，支持导入.md格式的文档。</p><p>导入：支持导入本地 <code>.md </code>格式的文档</p><p>导出：正文内容可以导出本地<code>.md</code>格式的文档</p><h2 id="一些-Markdown-渲染器测试">一些 Markdown 渲染器测试</h2><p>测试一下公式的渲染。</p><p>$$\theta_i \leftarrow  \frac{\partial}{\partial  \theta_i} \mathcal L( y, f(x; \theta))$$</p><p>其中 $\mathcal L$ 是损失函数，$f(\cdot; \theta)$ 由 $\theta$ 参数化的模型。</p><p>那 <code>代码</code> 呢？<code>thorndev</code> 可以吗？</p><p>一个表格：</p><table><thead><tr><th>Method</th><th>Accuracy</th></tr></thead><tbody><tr><td>A</td><td>0.1</td></tr><tr><td>B</td><td>0.2</td></tr><tr><td>C</td><td>0.3</td></tr></tbody></table><p>一个嵌套列表：</p><ul><li>a<ul><li>x</li><li>asdf<ul><li>再接再厉</li></ul></li><li>项目<ol><li>item 1</li><li>item 2<ol><li>sdf</li><li>sdf</li></ol></li><li>item 3</li></ol></li></ul></li><li>asdf</li></ul><p>一个代办列表：</p><ul class="contains-task-list"><li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> 买菜</li><li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> 做饭</li><li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> 击剑</li><li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> 打高尔夫球</li><li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox"> 写博客</li><li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox"> 搞技术</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> research </tag>
+            
+            <tag> blog </tag>
+            
+            <tag> markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>防止arp欺骗的方法</title>
+      <link href="/2023/09/16/%E9%98%B2%E6%AD%A2arp%E6%AC%BA%E9%AA%97%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+      <url>/2023/09/16/%E9%98%B2%E6%AD%A2arp%E6%AC%BA%E9%AA%97%E7%9A%84%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h2 id="简介">简介</h2><p>在使用随身Wi-Fi时，网络频繁断线并伴随360安全卫士弹出拦截提示，可能是遭遇了ARP攻击。本文将详细介绍ARP攻击的原理、危害以及如何通过设置静态ARP映射表来有效抵御攻击，并提供一些额外的安全防护建议。</p><h3 id="一、ARP攻击原理与危害">一、ARP攻击原理与危害</h3><p><strong>1. ARP协议简介</strong></p><p>地址解析协议（ARP）是局域网中用于解析IP地址与MAC地址之间对应关系的协议。在局域网中，主机之间进行通信时，需要知道对方的MAC地址才能发送数据包。ARP协议的作用就是将IP地址解析成MAC地址。</p><p><strong>2. ARP欺骗攻击原理</strong></p><p>攻击者利用ARP协议的缺陷，向局域网内发送伪造的ARP报文，将合法的IP地址与虚假的MAC地址绑定，从而欺骗其他主机将数据包发送到错误的目的地。</p><p><strong>3. ARP攻击危害</strong></p><ul><li>窃取敏感信息：攻击者可以截获被ARP欺骗的主机发送的数据包，窃取其中的敏感信息，例如账号密码、银行卡信息等。</li><li>阻断网络通信：攻击者可以将网关的MAC地址与虚假地址绑定，导致主机无法访问互联网或其他局域网资源。</li><li>发起网络攻击：攻击者可以利用ARP欺骗攻击作为跳板，发起其他网络攻击，例如拒绝服务攻击（DoS）、中间人攻击（MitM）等。</li></ul><h3 id="二、设置静态ARP映射表抵御ARP攻击">二、设置静态ARP映射表抵御ARP攻击</h3><p><strong>1. 查看ARP映射表</strong></p><p>在命令提示符中输入以下命令：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">arp <span class="literal">-a</span></span><br></pre></td></tr></tbody></table></figure><p><strong>2. 确定网卡索引号</strong></p><p>在设置中找到当前使用的网络连接，查看其IPv4地址。然后，在ARP映射表中找到与该IPv4地址相同网段的接口，并记下其索引号。</p><p><strong>3. 添加静态ARP映射</strong></p><p>在命令提示符中输入以下命令：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netsh interface ipv4 <span class="built_in">set</span> neighbors &lt;网卡索引号&gt; &lt;IP地址&gt; &lt;MAC地址&gt;</span><br></pre></td></tr></tbody></table></figure><p>例如，将IP地址为192.168.1.1的网关MAC地址设置为00-11-22-33-44-55，可使用以下命令：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">netsh interface ipv4 <span class="built_in">set</span> neighbors <span class="number">1</span> <span class="number">192.168</span>.<span class="number">1.1</span> <span class="number">00</span><span class="literal">-11-22-33-44-55</span></span><br></pre></td></tr></tbody></table></figure><p><strong>4. 验证设置结果</strong></p><p>再次运行<code>arp -a</code>命令，查看指定IP地址的MAC地址是否已变为静态映射的MAC地址。</p><h3 id="三、额外安全防护建议">三、额外安全防护建议</h3><ul><li>使用强密码和防火墙：为路由器、电脑和其他网络设备设置强密码，并开启防火墙功能，以提高抵御攻击的能力。</li><li>安装XARP，这里强烈推荐此方法，简单配置好一劳永逸！</li><li>更新软件和系统补丁：及时更新软件和系统补丁，修复已知的安全漏洞。</li><li>使用杀毒软件：安装并定期更新杀毒软件，以抵御病毒和恶意软件的攻击。</li><li>使用安全的网络连接：尽量避免使用公共Wi-Fi，或使用VPN等工具加密网络连接。</li></ul><h3 id="四、总结">四、总结</h3><p>通过设置静态ARP映射表可以有效抵御ARP攻击，但并非一劳永逸的安全措施。建议结合其他安全防护措施，提升整体网络安全防护能力。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Website </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> arp欺骗 </tag>
+            
+            <tag> tech </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
