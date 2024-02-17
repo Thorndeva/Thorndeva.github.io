@@ -6,7 +6,7 @@ categories: Life
 thumbnail: "13534714.webp"
 tags:
 - life
-- City
+- city
 - start
 - winter
 - research

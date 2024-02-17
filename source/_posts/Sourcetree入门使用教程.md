@@ -1,6 +1,6 @@
 ---
 author: Thorn`刺
-title: Sourcetree使用教程
+title: Sourcetree入门使用教程
 date: 2024-2-15 21:30:45
 categories: Software
 thumbnail: "sourcetree.webp"

@@ -1,11 +1,12 @@
 ---
 author: Thorn`刺
-title: 解决Win10网络适配器后缀问题
+title: 解决Win10网络适配器后缀
 date: 2023-11-29 20:55:33
 categories: Windows
 tags:
+- windows
+- wlan
 - network
-- wLAN
 - regedit
 - 以太网
 ---
