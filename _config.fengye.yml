@@ -26,18 +26,13 @@ nav:
     path: ./index
     icon: mingcute:home-2-fill
     show_icon: true
-
 email: "sketchupensvray@qq.com"
-
 # favicon
 favicon: /images/favicon-32x32.png
-
 # Portrait
 portrait: /images/portrait.webp
-
 # logo
 logo: /images/favicon.ico
-
 # links
 links:
   QQ:
@@ -50,29 +45,22 @@ links:
     link: https://www.zhihu.com
     icon: ri:zhihu-line
   # Weibo:
-
 # analytics
 google_analytics:
 baidu_analytics:
-
 # mathjax
 fancybox: true
-
 # mathjax
 mathjax: true
-
 # echarts
 echarts: true
-
 # busuanzi
 busuanzi: false
-
 # mermaid
 mermaid:
   enable: true
   # Available themes: default | dark | forest | neutral
   theme: default
-
 # giscus
 giscus:
   enable:
@@ -81,7 +69,6 @@ giscus:
   category:
   category_id:
   mapping:
-
 search:
   enable: true
   placeholder:

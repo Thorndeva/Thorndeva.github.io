@@ -69,9 +69,13 @@ description: |
 
 keywords:
 - "Thorn Logs"
-- 刺
-- Natural Language Processing
-- Artificial Intelligence
+- Thorn`刺
+- 个人博客
+- website
+- fengye
+- 技术分享
+- 知识扩展
+- 微记录
 author: Thorn`刺
 language:
 - en
@@ -309,7 +313,7 @@ giscus:
   category:
   category_id:
   mapping:
-  
+
 search:
   enable: true
   placeholder:

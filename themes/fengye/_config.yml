@@ -6,15 +6,11 @@ nav:
   # Tags: /tag
   # Publications: /publications  # This renders `source/publications.md`
   # "About Me": /about  # This renders `source/about.md`
-
 email: example@xxx.com
-
 # favicon
 favicon: /favicon.ico
-
 # logo
 logo: /images/logo.svg
-
 # links
 links:
   QQ: https://im.qq.com
@@ -22,29 +18,22 @@ links:
   ZhiHu: https://www.zhihu.com
   # Twitter:
   # Weibo:
-
 # analytics
 google_analytics:
 baidu_analytics:
-
 # mathjax
 fancybox: true
-
 # mathjax
 mathjax: true
-
 # echarts
 echarts: true
-
 # busuanzi
 busuanzi: true
-
 # mermaid
 mermaid:
   enable: true
   # Available themes: default | dark | forest | neutral
   theme: default
-
 # giscus
 giscus:
   enable:
