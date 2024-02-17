@@ -1,6 +1,6 @@
 ---
 author: Thorn`刺
-title: SublimeText4激活教程（Win+Mac）
+title: SublimeText4激活教程
 date: 2023-5-22 18:52:30
 categories: Software
 thumbnail: ""
@@ -31,7 +31,7 @@ tags:
 1. 打开以下网站：[点击跳转](https://www.hexed.it/)
 2. 具体操作步骤如下：
    1. 打开 `sublime_text.exe`。
-   2. 在搜索框中输入 **807805000f94c1**，并将其替换为 **c64005014885c9**，注意不要包含任何空格。 
+   2. 在搜索框中输入 **807805000f94c1**，并将其替换为 **c64005014885c9**，注意不要包含任何空格。
    3. 另存为文件名为 "sublime_text.exe"，并覆盖原文件即可。搜索文件名
 3. **验证激活状态**：在Sublime Text中点击“Help” -> “About Sublime XX”进行检验。
 

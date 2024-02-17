@@ -51,7 +51,7 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 
 等待安装完成后，以`管理员权限`重启终端。
 
-安装Nerd字体，推荐安装Cascadia Code，这个字体兼容性较好。在Windows Terminal的设置中将字体改为Cascadia Code：默认值 >> 外观 >> 字体。
+安装Nerd字体，推荐安装[Cascadia Code](https://www.nerdfonts.com/)，这个字体兼容性较好。在Windows Terminal的设置中将字体改为Cascadia Code：默认值 >> 外观 >> 字体。
 
 如果安装了VSCode，美化设置会自动同步到内置终端。
 

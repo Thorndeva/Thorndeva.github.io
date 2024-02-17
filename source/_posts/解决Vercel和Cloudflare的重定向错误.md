@@ -1,6 +1,6 @@
 ---
 author: Thorn`刺
-title: 解决Vercel+Cloudflare的重定向错误
+title: 解决Vercel和Cloudflare的重定向错误
 date: 2024-2-17 19:30:00
 categories: Website
 thumbnail: ""
