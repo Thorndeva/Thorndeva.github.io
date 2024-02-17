@@ -14,9 +14,7 @@ tags:
 featured: true
 ---
 
-SourceTree 是一款强大的 Git 和 Mercurial 客户端工具，为用户提供了直观、易用的界面，使版本控制变得简单易懂。本教程将介绍如何安装、配置和使用 SourceTree，帮助您快速上手并充分利用其功能。
-
-<!--more-->
+SourceTree是一款强大的Git和Mercurial客户端工具，提供直观易用的界面，简化版本控制操作。本教程将指导您安装、配置和使用SourceTree<!--more-->，帮助您快速上手并充分发挥其功能。
 
 **目录：**
 
