@@ -304,9 +304,9 @@
       
         <tags>
             
-            <tag> windows </tag>
-            
             <tag> powershell </tag>
+            
+            <tag> windows </tag>
             
         </tags>
       
@@ -457,9 +457,9 @@
             
             <tag> setup </tag>
             
-            <tag> error </tag>
-            
             <tag> regedit </tag>
+            
+            <tag> error </tag>
             
             <tag> anti-virus </tag>
             
@@ -587,9 +587,9 @@
             
             <tag> technology </tag>
             
-            <tag> win11 </tag>
-            
             <tag> setup </tag>
+            
+            <tag> win11 </tag>
             
             <tag> taskbar </tag>
             
@@ -602,11 +602,11 @@
     
     
     <entry>
-      <title>Sublime Text 4激活教程（Win+Mac）</title>
-      <link href="/2023/05/22/Sublime%20Text%204%E6%BF%80%E6%B4%BB%E6%95%99%E7%A8%8B%EF%BC%88Win+Mac%EF%BC%89/"/>
-      <url>/2023/05/22/Sublime%20Text%204%E6%BF%80%E6%B4%BB%E6%95%99%E7%A8%8B%EF%BC%88Win+Mac%EF%BC%89/</url>
+      <title>SublimeText4激活教程（Win+Mac）</title>
+      <link href="/2023/05/22/SublimeText4%E6%BF%80%E6%B4%BB%E6%95%99%E7%A8%8B%EF%BC%88Win+Mac%EF%BC%89/"/>
+      <url>/2023/05/22/SublimeText4%E6%BF%80%E6%B4%BB%E6%95%99%E7%A8%8B%EF%BC%88Win+Mac%EF%BC%89/</url>
       
-        <content type="html"><![CDATA[<h3 id="下载安装">下载安装</h3><h4 id="Sublime官网">Sublime官网</h4><blockquote><p><a href="https://www.sublimetext.com">官网链接 点击跳转</a>2023.7.21 版本为4143</p></blockquote><hr><h3 id="Windows激活方式">Windows激活方式</h3><h4 id="免费激活方式">免费激活方式</h4><blockquote><p>打开下方网站<a href="https://www.hexed.it">点击跳转</a></p></blockquote><p><strong>具体操作三步，打开“sublime_text.exe”，修改替换部分内容，保存替换</strong></p><p><strong>1.1</strong> 打开sublime_text.exe<img src="https://img-blog.csdnimg.cn/cf6f3162d7c545b7b1a512cc61195829.png" alt="1"></p><p><strong>1.2</strong> 搜索并替换内容</p><blockquote><p>在搜索框中输入 <strong>807805000f94c1</strong>替换为 <strong>c64005014885c9</strong>注意别带空格<img src="https://img-blog.csdnimg.cn/ba2057884e9b4a20b88011ac2063db6b.png" alt="2"></p></blockquote><p><strong>1.3</strong> 另存为另存为<a href="https://so.csdn.net/so/search?q=%E6%96%87%E4%BB%B6%E5%90%8D&amp;spm=1001.2101.3001.7020">文件名</a>为"sublime_text.exe"，覆盖源文件即可</p><hr><p><strong>亲测可用</strong> <strong>亲测可用</strong> <strong>亲测可用</strong></p><blockquote><p>检验是否已激活“Help” -&gt; “About Sublime XX”</p></blockquote><hr><h3 id="Mac激活方式">Mac激活方式</h3><p>Sublime安装和Window地址一致</p><blockquote><p>下载 App “Hex Fiend”<a href="https://hexfiend.com/">官网链接 点击跳转</a></p></blockquote><blockquote><p>打开Hex Fiend，将Sublime_text拖至Hex Fiend中</p></blockquote><blockquote><p>在搜索框中输入 <strong>807805000f94c1</strong>替换为 <strong>c64005014885c9</strong>注意别带空格</p></blockquote><blockquote><p>保存退出</p></blockquote><blockquote><p>在Terminal下，进入(cd)Sublime Text目录：</p></blockquote><blockquote><p>codesign --remove-signature Sublime\ Text.app/</p></blockquote><p>未亲测</p><p>转载自：<a href="https://blog.csdn.net/qq_32301683/article/details/131860909">Sublime Text 4 激活教程（Windows+Mac）-CSDN博客</a></p>]]></content>
+        <content type="html"><![CDATA[<h3 id="下载与安装指南">下载与安装指南</h3><h4 id="Sublime-Text-官方网站">Sublime Text 官方网站</h4><p>请前往Sublime Text官方网站进行下载和安装。</p><ul><li><a href="https://www.sublimetext.com/">官方网站链接</a></li><li>当前版本：4143 (发布日期：2023.7.21)</li></ul><hr><h3 id="Windows平台激活方法">Windows平台激活方法</h3><h4 id="免费激活流程">免费激活流程</h4><ol><li>打开以下网站：<a href="https://www.hexed.it/">点击跳转</a></li><li>具体操作步骤如下：<ol><li>打开 <code>sublime_text.exe</code>。</li><li>在搜索框中输入 <strong>807805000f94c1</strong>，并将其替换为 <strong>c64005014885c9</strong>，注意不要包含任何空格。</li><li>另存为文件名为 "sublime_text.exe"，并覆盖原文件即可。搜索文件名</li></ol></li><li><strong>验证激活状态</strong>：在Sublime Text中点击“Help” -&gt; “About Sublime XX”进行检验。</li></ol><p><strong>注意：</strong> 以上方法已经过验证，确保可用。</p><hr><h3 id="Mac平台激活方法">Mac平台激活方法</h3><p>激活Sublime Text的步骤与Windows平台相同。</p><ol><li><p>下载并安装应用程序 “Hex Fiend”。</p><ul><li><a href="https://hexfiend.com/">官方网站链接</a></li></ul></li><li><p>打开Hex Fiend，并将Sublime_text拖入Hex Fiend中。</p></li><li><p>在搜索框中输入 <strong>807805000f94c1</strong>，并替换为 <strong>c64005014885c9</strong>，确保不带有任何空格。</p></li><li><p>保存并退出编辑。</p></li><li><p>在Terminal中，进入Sublime Text的目录：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> Sublime\ Text目录路径/</span><br></pre></td></tr></tbody></table></figure></li><li><p>移除Sublime Text的签名：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">codesign <span class="literal">--remove-signature</span> Sublime\ Text.app/</span><br></pre></td></tr></tbody></table></figure></li></ol><p><strong>请注意：</strong> 以上方法尚未亲自验证。</p>]]></content>
       
       
       <categories>
