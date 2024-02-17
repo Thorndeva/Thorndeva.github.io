@@ -4,7 +4,7 @@ date: 2023-07-16 16:18:06
 type: "about"
 ---
 
-<img src="images/about.webp" alt="Enjoy working while drinking coffee in the office."/>
+![Enjoy working while drinking coffee in the office.](../images/about.webp)
 
 <iconify-icon icon="mingcute:world-2-fill"></iconify-icon> [中文](#Chinese-Version-中文版本)
 
