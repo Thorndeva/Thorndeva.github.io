@@ -38,7 +38,7 @@ email: "sketchupensvray@qq.com"
 favicon: /images/favicon-32x32.png
 
 # Portrait
-portrait: /images/portrait.webp
+portrait:
 
 # logo
 logo: /images/favicon.ico
@@ -89,4 +89,12 @@ giscus:
   mapping:
 search:
   enable: true
-  placeholder:
+  placeholder: search
+
+  # maple
+maple:
+  enable: true
+  # fall leaf count
+  count: 10
+  # 0-1
+  speed: 0.5

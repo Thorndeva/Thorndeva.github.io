@@ -745,7 +745,7 @@ body:not(.is-using-mouse) .fancybox__container :focus {
 .fancybox__thumb {
     position: relative;
     width: 100%;
-    padding-top: calc(100%/(var(--fancybox-thumbs-ratio, 1.5)));
+    padding-top: calc(100%/(var(--fancybox-thumbs-ratio, 2.2.)));
     background-size: cover;
     background-position: center center;
     background-color: rgba(255, 255, 255, .1);
