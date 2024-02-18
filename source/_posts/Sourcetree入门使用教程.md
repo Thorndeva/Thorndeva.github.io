@@ -11,7 +11,6 @@ tags:
 - sourcetree
 - mercurial
 - code submission
-featured: true
 ---
 
 SourceTree是一款强大的Git和Mercurial客户端工具，提供直观易用的界面，简化版本控制操作。本教程将指导您安装、配置和使用SourceTree<!--more-->，帮助您快速上手并充分发挥其功能。

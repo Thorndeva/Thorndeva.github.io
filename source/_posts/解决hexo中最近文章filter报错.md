@@ -3,6 +3,7 @@ author: Thorn`刺
 title: 解决hexo中最近文章filter报错
 date: 2024-2-17 19:40:00
 categories: Website
+featured: true
 thumbnail: ""
 tags:
 - hexo
@@ -11,7 +12,7 @@ tags:
 - javascript
 - technology
 ---
-在 JavaScript 开发中，经常会遇到由于调用未定义对象或数组而引发的错误，例如在hexo项目开发中出现最近文章filter报错的问题。器本文将深入分析此类错误，并提供解决方法。
+在 JavaScript 开发中，经常会遇到由于调用未定义对象或数组而引发的错误，例如在hexo项目开发中出现最近文章filter报错的问题。<!--more-->器本文将深入分析此类错误，并提供解决方法。
 
 ## 问题描述
 
