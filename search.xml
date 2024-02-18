@@ -92,9 +92,9 @@
       
         <tags>
             
-            <tag> blog </tag>
-            
             <tag> hexo </tag>
+            
+            <tag> blog </tag>
             
             <tag> start </tag>
             
@@ -232,13 +232,13 @@
       
         <tags>
             
-            <tag> life </tag>
-            
-            <tag> research </tag>
-            
             <tag> start </tag>
             
             <tag> technology </tag>
+            
+            <tag> life </tag>
+            
+            <tag> research </tag>
             
             <tag> thornlogs </tag>
             
@@ -269,11 +269,11 @@
             
             <tag> windows </tag>
             
-            <tag> regedit </tag>
-            
             <tag> wlan </tag>
             
             <tag> network </tag>
+            
+            <tag> regedit </tag>
             
             <tag> 以太网 </tag>
             
@@ -488,9 +488,9 @@
             
             <tag> error </tag>
             
-            <tag> anti-virus </tag>
-            
             <tag> regedit </tag>
+            
+            <tag> anti-virus </tag>
             
         </tags>
       
