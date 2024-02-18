@@ -98,14 +98,113 @@ flex flex-row items-center
 
 <!-- Dropdown menu on small screens -->
 <div id="menu-panel" class="h-0 overflow-hidden sm:hidden fixed left-0 right-0 top-12 bottom-0 z-10">
-  <div id="menu-content" class="relative z-20 bg-white/80 px-6 sm:px-8 py-2 backdrop-blur-xl -translate-y-full transition-transform duration-300">
-    <ul class="nav flex flex-col sm:flex-row text-sm font-medium">
-      <% for (var i in theme.nav){ %>
-        <li class="nav-portfolio sm:mx-2 border-b sm:border-0 border-black/5 last:border-0 hover:text-main">
-          <a href="<%- url_for(theme.nav[i]) %>" class="flex h-12 sm:h-auto items-center"><%= i %></a>
-        </li>
-      <% } %>
-    </ul>
+  <div id="menu-content" class="relative z-20 px-6 sm:px-8 py-2 backdrop-blur-xl -translate-y-full transition-transform duration-300">
+<a href="/./archives" class="
+                flex flex-row items-center
+                gap-2
+                h-12
+                hover:underline
+                hover:bg-[var(--c-20)]
+                px-3
+                py-1
+                rounded-lg
+            ">
+            <iconify-icon icon="mingcute:inbox-fill" width="22">
+            </iconify-icon>
+            <p>
+              Posts
+            </p>
+          </a>
+
+
+        <a href="/./publications" class="
+                        flex flex-row items-center
+                        gap-2
+                        h-12
+                        hover:underline
+                        hover:bg-[var(--c-20)]
+                        px-3
+                        py-1
+                        rounded-lg
+                    ">
+            <iconify-icon icon="mingcute:science-fill" width="22">
+            </iconify-icon>
+            <p>
+                Publications
+            </p>
+        </a>
+
+
+        <a href="/./about" class="
+                        flex flex-row items-center
+                        gap-2
+                        h-12
+                        hover:underline
+                        hover:bg-[var(--c-20)]
+                        px-3
+                        py-1
+                        rounded-lg
+                    ">
+            <iconify-icon icon="mingcute:user-info-fill" width="22">
+            </iconify-icon>
+            <p>
+                About
+            </p>
+        </a>
+
+
+        <a href="/./category" class="
+                        flex flex-row items-center
+                        gap-2
+                        h-12
+                        hover:underline
+                        hover:bg-[var(--c-20)]
+                        px-3
+                        py-1
+                        rounded-lg
+                    ">
+            <iconify-icon icon="mingcute:classify-2-fill" width="22">
+            </iconify-icon>
+            <p>
+                Categories
+            </p>
+        </a>
+
+
+        <a href="/./tag" class="
+                        flex flex-row items-center
+                        gap-2
+                        h-12
+                        hover:underline
+                        hover:bg-[var(--c-20)]
+                        px-3
+                        py-1
+                        rounded-lg
+                    ">
+            <iconify-icon icon="mingcute:tag-fill" width="22">
+            </iconify-icon>
+            <p>
+                Tags
+            </p>
+        </a>
+
+
+        <a href="/./index" class="
+                        flex flex-row items-center
+                        gap-2
+                        h-12
+                        hover:underline
+                        hover:bg-[var(--c-20)]
+                        px-3
+                        py-1
+                        rounded-lg
+                    ">
+            <iconify-icon icon="mingcute:home-2-fill" width="22">
+            </iconify-icon>
+            <p>
+                Home
+            </p>
+        </a>
   </div>
   <div class="mask bg-black/20 absolute inset-0"></div>
 </div>
