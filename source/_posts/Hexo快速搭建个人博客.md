@@ -348,7 +348,7 @@ nav:
     icon: mingcute:tag-fill
     show_icon: true
   Home:
-    path: ./index
+    path: /
     icon: mingcute:home-2-fill
     show_icon: true
 
