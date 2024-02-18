@@ -8,7 +8,7 @@
       <link href="/2024/02/17/%E8%A7%A3%E5%86%B3hexo%E4%B8%AD%E6%9C%80%E8%BF%91%E6%96%87%E7%AB%A0filter%E6%8A%A5%E9%94%99/"/>
       <url>/2024/02/17/%E8%A7%A3%E5%86%B3hexo%E4%B8%AD%E6%9C%80%E8%BF%91%E6%96%87%E7%AB%A0filter%E6%8A%A5%E9%94%99/</url>
       
-        <content type="html"><![CDATA[<p>在 JavaScript 开发中，经常会遇到由于调用未定义对象或数组而引发的错误，例如在hexo项目开发中出现最近文章filter报错的问题。器本文将深入分析此类错误，并提供解决方法。</p><h2 id="问题描述">问题描述</h2><p>错误信息提示我们的问题出现在 <code>index.ejs</code> 文件的第 65 行，具体是在以下代码处：</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;%- partial('_partial/post-list', {</span><br><span class="line">    posts: page.posts.filter(post =&gt; post.featured),</span><br><span class="line">    show_tags: false</span><br><span class="line">}) %&gt;</span><br></pre></td></tr></tbody></table></figure><ol><li>错误信息中提到了 <code>Cannot read properties of undefined (reading 'filter')</code>，这表明 <code>page.posts</code> 是 <code>undefined</code>，而 <code>undefined</code> 是没有 <code>filter</code> 方法的。</li></ol><h2 id="解决方法">解决方法</h2><p>要解决这个问题，我们需要确保 <code>page.posts</code> 存在且是一个数组，然后再调用 <code>filter</code> 方法。为此，我们应该在代码中添加一些检查以确保安全地访问 <code>page.posts</code>。</p><h2 id="代码示例">代码示例</h2><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;% if (page.posts) { %&gt;</span><br><span class="line">    &lt;!-- List of featured posts --&gt;</span><br><span class="line">    &lt;%- partial('_partial/post-list', { </span><br><span class="line">        posts: page.posts.filter(post =&gt; post.featured),</span><br><span class="line">        show_tags: false</span><br><span class="line">    }) %&gt;</span><br><span class="line">&lt;% } %&gt;</span><br></pre></td></tr></tbody></table></figure><p>通过上述更改，我们添加了一个条件语句，在 <code>page.posts</code> 存在且为数组时才会执行 <code>filter</code> 方法。这样就避免了在 <code>undefined</code> 上调用 <code>filter</code> 方法而导致的错误。保存更改后，重新加载页面或重新编译您的项目，应该就可以解决这个错误了。</p>]]></content>
+        <content type="html"><![CDATA[<p>在 JavaScript 开发中，经常会遇到由于调用未定义对象或数组而引发的错误，例如在hexo项目开发中出现最近文章filter报错的问题。<span id="more"></span>器本文将深入分析此类错误，并提供解决方法。</p><h2 id="问题描述">问题描述</h2><p>错误信息提示我们的问题出现在 <code>index.ejs</code> 文件的第 65 行，具体是在以下代码处：</p><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;%- partial('_partial/post-list', {</span><br><span class="line">    posts: page.posts.filter(post =&gt; post.featured),</span><br><span class="line">    show_tags: false</span><br><span class="line">}) %&gt;</span><br></pre></td></tr></tbody></table></figure><ol><li>错误信息中提到了 <code>Cannot read properties of undefined (reading 'filter')</code>，这表明 <code>page.posts</code> 是 <code>undefined</code>，而 <code>undefined</code> 是没有 <code>filter</code> 方法的。</li></ol><h2 id="解决方法">解决方法</h2><p>要解决这个问题，我们需要确保 <code>page.posts</code> 存在且是一个数组，然后再调用 <code>filter</code> 方法。为此，我们应该在代码中添加一些检查以确保安全地访问 <code>page.posts</code>。</p><h2 id="代码示例">代码示例</h2><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;% if (page.posts) { %&gt;</span><br><span class="line">    &lt;!-- List of featured posts --&gt;</span><br><span class="line">    &lt;%- partial('_partial/post-list', { </span><br><span class="line">        posts: page.posts.filter(post =&gt; post.featured),</span><br><span class="line">        show_tags: false</span><br><span class="line">    }) %&gt;</span><br><span class="line">&lt;% } %&gt;</span><br></pre></td></tr></tbody></table></figure><p>通过上述更改，我们添加了一个条件语句，在 <code>page.posts</code> 存在且为数组时才会执行 <code>filter</code> 方法。这样就避免了在 <code>undefined</code> 上调用 <code>filter</code> 方法而导致的错误。保存更改后，重新加载页面或重新编译您的项目，应该就可以解决这个错误了。</p>]]></content>
       
       
       <categories>
@@ -232,11 +232,11 @@
       
         <tags>
             
+            <tag> life </tag>
+            
             <tag> start </tag>
             
             <tag> technology </tag>
-            
-            <tag> life </tag>
             
             <tag> research </tag>
             
@@ -269,11 +269,11 @@
             
             <tag> windows </tag>
             
+            <tag> regedit </tag>
+            
             <tag> wlan </tag>
             
             <tag> network </tag>
-            
-            <tag> regedit </tag>
             
             <tag> 以太网 </tag>
             
@@ -488,9 +488,9 @@
             
             <tag> error </tag>
             
-            <tag> regedit </tag>
-            
             <tag> anti-virus </tag>
+            
+            <tag> regedit </tag>
             
         </tags>
       
@@ -519,9 +519,9 @@
             
             <tag> desktop </tag>
             
-            <tag> adobe </tag>
-            
             <tag> optimization </tag>
+            
+            <tag> adobe </tag>
             
             <tag> button </tag>
             
