@@ -1,20 +1,13 @@
-<section class="px-2 py-8 max-w-prose mx-auto gap-4 grid grid-cols-1">
+<section class="px-6 max-w-prose mx-auto gap-12 grid grid-cols-1">
   <% var last_year = ''; var last_month = ''; var last_day = ''; %>
   <% posts.each(function (post, index) { %>
     <% var cur_year = post.date.year(); %>
     <!-- Large text showing the year in the background -->
     <% if(last_year !== cur_year){ %>
-      <div class="relative pointer-events-none h-[48px]">
-        <div class="absolute -left-11 -top--6 w-[100%]">
-          <span class="
-            text-clip overflow-hidden -translate-x-3 text-9xl
-            font-bold
-            text-[#42b883]
-            opacity-10
-            dark:opacity-20">
+      <div class="relative pointer-events-none">
+          <span class="text-9xl opacity-10 absolute -left-11 -top-2 font-bold text-[#42b883]">
             <%- cur_year %>
           </span>
-        </div>
       </div>
     <% last_year = cur_year; } %>
     <!-- The post -->
