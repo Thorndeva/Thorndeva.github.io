@@ -1,6 +1,6 @@
 ---
 author: Thorn`刺
-title: "使用Oh-My-Posh配置美化终端"
+title: "使用 Oh-My-Posh 配置美化终端"
 date: 2023-11-25 22:32:30
 categories: Windows
 tags:
@@ -9,7 +9,7 @@ tags:
 - theme
 ---
 
-Windows默认终端显得单调，而Windows 11自带终端Windows Terminal更简便。我们可利用业余时间美化系统终端。本文分享了Oh-My-Posh终端美化和PowerShell实践心得，为大家提供经验，减少冗余步骤。内容参考[知乎文章](https://zhuanlan.zhihu.com/p/354603010)。
+Windows默认终端显得单调，而Windows 11自带终端Windows Terminal更简便。我们可利用业余时间美化系统终端。本文分享了Oh-My-Posh终端美化和PowerShell实践心得，为大家提供经验，减少冗余步骤。<!--more-->内容参考[知乎文章](https://zhuanlan.zhihu.com/p/354603010)。
 
 首先是安装Power Shell 7
 

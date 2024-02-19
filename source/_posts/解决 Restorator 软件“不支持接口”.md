@@ -1,6 +1,6 @@
 ---
 author: Thorn`刺
-title: 解决Restorator软件“不支持接口”
+title: 解决 Restorator 软件“不支持接口”
 date: 2023-5-22 18:52:30
 categories: Software
 thumbnail: ""
@@ -13,7 +13,7 @@ tags:
 - technology
 ---
 
-在使用某版本的 Restorator 后，可能会遇到软件修改了 exe 关联，导致点击 exe 文件时出现“XXX 不支持此接口”的问题。下面是解决这个问题的几种方法：
+在使用某版本的 Restorator 后，可能会遇到软件修改了 exe 关联，导致点击 exe 文件时出现“XXX 不支持此接口”的问题。<!--more-->下面是解决这个问题的几种方法：
 
 1. **以管理员身份运行cmd.exe**： 尝试以管理员身份运行 cmd.exe 并输入以下命令：
 
@@ -34,4 +34,4 @@ tags:
    - 打开 Restorator 后，点击“工具” -> “设置” -> “外壳整合” -> “编辑文件关联”，选中 exe，然后点击“取消关联”。
    - 最后点击“确定”即可解决问题。
 
-通过以上方法，您可以尝试解决 Restorator 软件“不支持此接口”的问题。如果以上方法都无法解决问题，请考虑联系 Restorator 的技术支持团队寻求帮助。
+通过以上方法，您可以尝试解决 Restorator 软件“不支持此接口”的问题。

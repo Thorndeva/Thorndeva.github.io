@@ -1,6 +1,6 @@
 ---
 author: Thorn`刺
-title: 启用Windows的高性能模式
+title: 启用 Windows 的高性能模式
 date: 2023-10-03 21:55:33
 categories: Windows
 tags:
@@ -12,7 +12,7 @@ tags:
 - 高性能电源
 ---
 
-在Windows 10和Windows 11中，高性能模式默认情况下被隐藏起来，但是您可以通过以下步骤来启用它。
+在 Windows 10 和 Windows 11 中，**高性能模式**默认情况下被隐藏起来，但是您可以通过以下步骤来启用它。
 
 **步骤：**
 

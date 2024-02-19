@@ -1,6 +1,6 @@
 ---
 author: Thorn`刺
-title: Markdown使用说明
+title: Markdown 使用说明
 date: 2023-09-16 22:27:20
 thumbnail: ""
 thubmnail-alt: 
@@ -12,7 +12,9 @@ tags:
 categories: Markdown
 ---
 
-> 这是一篇关于讲解如何正确使用**Markdown**的排版示例，希望通过此，大家都能轻松上手，都能通过**Markdown** 能够让自己的文章有更加出色、更清晰明了的排版。
+这是一篇关于讲解如何正确使用**Markdown**的排版示例，希望通过此，大家都能轻松上手，都能通过**Markdown** 能够让自己的文章有更加出色、更清晰明了的排版。
+
+<!--more-->
 
 ## 什么是 Markdown
 

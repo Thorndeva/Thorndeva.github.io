@@ -1,6 +1,6 @@
 ---
 author: Thorn`刺
-title: 让Edge浏览器关闭“尊重隐私”弹窗
+title: 让 Edge 浏览器关闭“尊重隐私”弹窗
 date: 2023-5-17 19:45:40
 categories: Browser
 thumbnail: ""
@@ -15,6 +15,8 @@ tags:
 ---
 
 在使用 Edge 浏览器时，有时候会出现“我们尊重你的隐私”弹窗，本文将介绍如何关闭该弹窗的专业技术方法。
+
+<!--more-->
 
 ## 打开 Edge 设置
 

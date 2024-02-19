@@ -1,6 +1,6 @@
 ---
 author: Thorn`刺
-title: 解决Vercel和Cloudflare的重定向错误
+title: 解决 Vercel 和 Cloudflare 的重定向错误
 date: 2024-2-17 19:30:00
 categories: Website
 thumbnail: ""
@@ -15,7 +15,9 @@ tags:
 - cloudflare
 ---
 
-在使用 Vercel 和 Cloudflare 的组合时，有时会出现 "ERR_TOO_MANY_REDIRECTS" 错误，这可能是由于配置问题导致的重定向循环。以下是解决该错误的专业技术方法：
+在使用 Vercel 和 Cloudflare 的组合时，有时会出现 "**ERR_TOO_MANY_REDIRECTS**" 错误，这可能是由于配置问题导致的重定向循环。以下是解决该错误的专业技术方法：
+
+<!--more-->
 
 ## 进入Cloudflare控制面板
 

@@ -1,6 +1,6 @@
 ---
 author: Thorn`刺
-title: Hexo快速搭建个人博客
+title: Hexo 博客快速搭建指南
 date: 2024-2-16 20:30:00
 categories: Hexo
 thumbnail: "hexostart.webp"
@@ -16,18 +16,18 @@ tags:
 - cloudflare
 ---
 
-在数字时代，个人博客是分享知识、展示技能和建立个人品牌的重要途径之一。Hexo是一款快速、简洁、强大的静态博客框架，支持自定义主题和插件<!--more-->，可用于快速搭建专业的个人博客网站。本教程将指导如何使用 Hexo 搭建专业的博客网站。
+在数字时代，个人博客是分享知识、展示技能和建立个人品牌的重要途径之一。Hexo是一款快速、简洁、强大的静态博客框架，支持自定义主题和插件，可用于快速搭建专业的个人博客网站。<!--more-->本教程将指导如何使用 Hexo 搭建专业的博客网站。
 
-![快速、简洁且高效的博客框架](./Hexo快速搭建个人博客/hexoposter.webp)
+![快速、简洁且高效的博客框架](./Hexo 博客快速搭建指南/hexoposter.webp)
 
-## 安装Node.js和Git
+## 安装 Node.js 和 Git
 
 首先，确保您的计算机上已经安装了 Node.js 和 Git。您可以在官方网站下载并安装它们：
 
 - Node.js: https://nodejs.org/
 - Git: https://git-scm.com/
 
-## 安装Hexo
+## 安装 Hexo
 
 打开命令行界面（例如终端或命令提示符），执行以下命令安装 Hexo：
 
@@ -44,7 +44,7 @@ mkdir thornlog
 cd thornlog
 ```
 
-## 引入Hexo
+## 引入 Hexo
 
 在Hexo中，文件夹的组织对于博客的运行至关重要。Hexo文件夹是指定的目标文件夹，所有与博客相关的操作，包括撰写文章、安装主题等，都应在此完成。
 
@@ -134,7 +134,7 @@ giscus:
 
 - 请参阅文件和 。`your-blog/themes/fengye/layout/category.ejs``your-blog/themes/fengye/layout/tag.ejs`
 
-## 配置Hexo
+## 配置 Hexo
 
 打开 `_config.yml` 文件，在其中配置您的博客网站信息，包括网站标题、描述、作者等。您也可以配置其他选项，如语言、时区等。
 
@@ -438,7 +438,7 @@ hexo s
 
 通过以上命令根据您创建的文档进行预览和修改，最终将文档上传至您的仓库。
 
-## 配置GitHub Pages
+## 配置 GitHub Pages
 
 1. **创建GitHub仓库**： 登录到您的GitHub账号，点击页面右上角的加号按钮，选择“New repository”来创建一个新的仓库。您可以将仓库命名为 `<username>.github.io`，其中 `<username>` 是您的GitHub用户名。
 2. **将Hexo网站推送到GitHub仓库**：这里小白推荐使用Sourcetree，修改整理好文件后一键pull push。
@@ -461,7 +461,7 @@ hexo s
 
    确保将 `<username>` 替换为您的GitHub用户名。
 
-## 部署到GitHub Pages
+## 部署到 GitHub Pages
 
 现在，您可以通过执行以下命令来生成并部署您的Hexo网站到GitHub Pages：
 
@@ -498,7 +498,7 @@ WWW     CNAME      thorndeva.github.io.
 - 硅云
 - ……
 
-## 部署到Vercel
+## 部署到 Vercel
 
 1. **[登录Vercel账号](https://vercel.com)**
 2. **选择创建分支项目**
@@ -512,7 +512,7 @@ WWW     CNAME      thorndeva.github.io.
 3. 在项目设置中找到"Domains"部分
 4. 添加您的自定义域名并保存更改
 
-## 部署到Cloudflare
+## 部署到 Cloudflare
 
 首先需要注册一个账号。您可以访问 Cloudflare 的官方网站并按照指示注册一个新账号。其次添加域名到Cloudflare。
 
