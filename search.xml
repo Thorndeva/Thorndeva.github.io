@@ -232,11 +232,11 @@
       
         <tags>
             
+            <tag> life </tag>
+            
             <tag> start </tag>
             
             <tag> technology </tag>
-            
-            <tag> life </tag>
             
             <tag> research </tag>
             
@@ -269,11 +269,11 @@
             
             <tag> windows </tag>
             
+            <tag> regedit </tag>
+            
             <tag> wlan </tag>
             
             <tag> network </tag>
-            
-            <tag> regedit </tag>
             
             <tag> 以太网 </tag>
             
@@ -333,9 +333,9 @@
       
         <tags>
             
-            <tag> powershell </tag>
-            
             <tag> windows </tag>
+            
+            <tag> powershell </tag>
             
         </tags>
       
@@ -488,9 +488,9 @@
             
             <tag> error </tag>
             
-            <tag> regedit </tag>
-            
             <tag> anti-virus </tag>
+            
+            <tag> regedit </tag>
             
         </tags>
       
@@ -517,11 +517,11 @@
             
             <tag> windows </tag>
             
-            <tag> optimization </tag>
-            
             <tag> desktop </tag>
             
             <tag> adobe </tag>
+            
+            <tag> optimization </tag>
             
             <tag> button </tag>
             
@@ -756,9 +756,9 @@
             
             <tag> technology </tag>
             
-            <tag> taskbar </tag>
-            
             <tag> cmd </tag>
+            
+            <tag> taskbar </tag>
             
             <tag> unusual </tag>
             
