@@ -3,13 +3,16 @@
     post-container
     px-2 py-2
     flex flex-col gap-3">
-    <div class="flex flex-row gap-4">
+    <div class="flex flex-row items-center gap-4">
         <% if (post.thumbnail) { %>
             <% var postDir = url_for(post.path); %>
             <!-- Post thumbnail -->
-            <a href="<%- url_for(post.path) %>" class="max-w-48">
+            <a href="<%- url_for(post.path) %>" class="flex-shrink-0">
             <img class="
-                h-full
+                h-auto
+                w-auto
+                max-h-full
+                max-w-48
                 rounded-md
                 object-cover
                 transition-all
@@ -21,7 +24,7 @@
             </img>
         </a>
             <% } %>
-            <div class="flex flex-col gap-1">
+            <div class="flex flex-col justify-center gap-2">
                 <!-- Post title -->
                 <a href="<%- url_for(post.path) %>">
                     <h2 class="
@@ -40,9 +43,8 @@
                 post-excerpt
                 post-content
                 text-gray-400
-                my-2
                 text-sm
-                line-clamp-5
+                line-clamp-4
                 border-b-1
                 border-[var(--c-sep)]">
                     <%- post.excerpt -%>
@@ -50,6 +52,7 @@
             <% } %>
             </div>
         </div>
+
         <!-- Post Statistics -->
         <div class="flex flex-wrap items-center gap-x-2 text-sm
             text-[var(--c-70)]">

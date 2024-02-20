@@ -46,4 +46,4 @@ tags:
 1. 测试访问您的网站，确认是否已经解决问题。
 2. 如果一切正常，可以重新将 Proxy 设置为 "Proxied"。
 
-通过以上专业技术方法，您应该能够解决 Vercel 和 Cloudflare 的重定向错误 "ERR_TOO_MANY_REDIRECTS"。如果问题仍然存在，请考虑进一步检查您的网站配置，并可能需要联系 Cloudflare 和 Vercel 的技术支持团队以获取进一步帮助。
+通过以上专业技术方法，您应该能够解决 Vercel 和 Cloudflare 的重定向错误 "ERR_TOO_MANY_REDIRECTS"。如果问题仍然存在，请考虑进一步检查您的网站配置。
