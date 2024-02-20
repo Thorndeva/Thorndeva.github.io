@@ -7,10 +7,9 @@
         <% if (post.thumbnail) { %>
             <% var postDir = url_for(post.path); %>
             <!-- Post thumbnail -->
-            <a href="<%- url_for(post.path) %>">
+            <a href="<%- url_for(post.path) %>" class="max-w-48">
             <img class="
                 h-full
-                max-w-48
                 rounded-md
                 object-cover
                 transition-all
