@@ -33,64 +33,131 @@ flex flex-row items-center
     <div class="flex flex-row items-center z-20 h-full">
         <!-- Page links -->
         <div class="hidden sm:flex flex-row h-full">
-            <% for (var i in theme.nav) { %>
-                <% var pageLink = theme.nav[i]; %>
-                <% if (typeof pageLink === 'object') { %>
-                    <% var path = theme.nav[i].path; %>
-                    <% var icon = theme.nav[i].icon; %>
-                <% } else { %>
-                    <% var path = theme.nav[i]; %>
-                    <% var icon = null; %>
-                <% } %>
-                <a
-                    href="<%= url_for(path) %>"
-                    class="
-                        flex flex-row items-center
-                        gap-1
-                        hover:underline
-                        hover:bg-[var(--c-20)]
-                        hover:text-[#42b883]
-                        transition-all
-                        px-2
-                        py-1
-                        my-1
-                        rounded-lg
-                        group
-                    ">
-                    <% if (icon) { %>
-                        <iconify-icon class="group-hover:scale-108 transition-transform" icon="<%- icon %>" width="20">
-                        </iconify-icon>
-                    <% } %>
-                    <% if (theme.nav[i].show_text) { %>
-                        <p><%= i %></p>
-                    <% } %>
-                </a>
-            <% } %>
+        <a href="./archives" class="
+                                flex flex-row items-center
+                                gap-1
+                                hover:underline
+                                hover:bg-[var(--c-20)]
+                                hover:text-[#42b883]
+                                transition-all
+                                px-2
+                                py-1
+                                my-1
+                                rounded-lg
+                                group
+                            ">
+            <iconify-icon class="group-hover:scale-125 transition-transform" icon="mingcute:inbox-fill" width="22">
+            </iconify-icon>
+            <p>Posts</p>
+        </a>
+        <a href="./publications" class="
+                                flex flex-row items-center
+                                gap-1
+                                hover:underline
+                                hover:bg-[var(--c-20)]
+                                hover:text-[#42b883]
+                                transition-all
+                                px-2
+                                py-1
+                                my-1
+                                rounded-lg
+                                group
+                            ">
+            <iconify-icon class="group-hover:scale-125 transition-transform" icon="mingcute:science-fill" width="22">
+            </iconify-icon>
+            <p>Publications</p>
+        </a>
+        <a href="./about" class="
+                                flex flex-row items-center
+                                gap-1
+                                hover:underline
+                                hover:bg-[var(--c-20)]
+                                hover:text-[#42b883]
+                                transition-all
+                                px-2
+                                py-1
+                                my-1
+                                rounded-lg
+                                group
+                            ">
+            <iconify-icon class="group-hover:scale-125 transition-transform" icon="mingcute:user-info-fill" width="22">
+            </iconify-icon>
+            <p>About</p>
+        </a>
+        <a href="./category" class="
+                                flex flex-row items-center
+                                gap-1
+                                hover:underline
+                                hover:bg-[var(--c-20)]
+                                hover:text-[#42b883]
+                                transition-all
+                                px-2
+                                py-1
+                                my-1
+                                rounded-lg
+                                group
+                            ">
+            <iconify-icon class="group-hover:scale-125 transition-transform" icon="mingcute:classify-2-fill" width="22">
+            </iconify-icon>
+        </a>
+        <a href="./tag" class="
+                                flex flex-row items-center
+                                gap-1
+                                hover:underline
+                                hover:bg-[var(--c-20)]
+                                hover:text-[#42b883]
+                                transition-all
+                                px-2
+                                py-1
+                                my-1
+                                rounded-lg
+                                group
+                            ">
+            <iconify-icon class="group-hover:scale-125 transition-transform" icon="mingcute:tag-fill" width="22">
+            </iconify-icon>
+        </a>
+        <a href="./index" class="
+                                flex flex-row items-center
+                                gap-1
+                                hover:underline
+                                hover:bg-[var(--c-20)]
+                                hover:text-[#42b883]
+                                transition-all
+                                px-2
+                                py-1
+                                my-1
+                                rounded-lg
+                                group
+                            ">
+            <iconify-icon class="group-hover:scale-125 transition-transform" icon="mingcute:home-2-fill" width="22">
+            </iconify-icon>
+        </a>
         </div>
+
         <!-- Icons on the right -->
         <div class="flex flex-row items-center">
 
             <%- partial('_partial/search') %>
 
             <!-- Dark/light toggle icon -->
-            <a class="flex group p-1" title="toggle theme" id="toggle-dark">
+            <a class="flex group p-1 px-2.5" title="toggle theme" id="toggle-dark">
                 <iconify-icon class="transition-transform
                     group-hover:rotate-[45deg]
-                    group-hover:scale-108
+                    group-hover:scale-125
                     group-hover:text-[#42b883]
-                    " width="20" icon="" id="theme-icon">
+                    " width="22" icon="" id="theme-icon">
                 </iconify-icon>
             </a>
             <!-- Icon for dropout menu on small screens -->
             <div class="flex items-center justify-center gap-1 mx-1 sm:hidden">
                 <a class="w-5 h-5" aria-hidden="true" role="img" id="open-menu">
-                    <iconify-icon width="20" icon="mingcute:menu-fill"
-                        class="transition-transform hover:scale-108 hover:rotate-[5deg]">
+                    <iconify-icon width="22" icon="mingcute:menu-fill"
+                        class="transition-transform hover:scale-125 hover:rotate-[5deg]">
                     </iconify-icon>
                 </a>
                 <a class="w-5 h-5 hidden" aria-hidden="true" role="img" id="close-menu">
-                    <iconify-icon width="20" icon="mingcute:close-circle-fill"
-                        class="transition-transform hover:scale-108 hover:rotate-[80deg]">
+                    <iconify-icon width="22" icon="mingcute:close-circle-fill"
+                        class="transition-transform hover:scale-125 hover:rotate-[80deg]">
                     </iconify-icon>
                 </a>
             </div>
@@ -101,18 +168,18 @@ flex flex-row items-center
 
 <!-- Dropdown menu on small screens -->
 <div id="menu-panel" class="h-0 overflow-hidden sm:hidden fixed left-0 right-0 top-12 bottom-0 z-10">
-  <div id="menu-content" class="relative z-20 px-6 sm:px-8 py-2 backdrop-blur-xl -translate-y-full transition-transform duration-300">
+  <div id="menu-content" class="relative z-20 font-black text-xl px-6 sm:px-8 py-2 backdrop-blur-xl -translate-y-full transition-transform duration-300">
 <a href="./archives" class="
                 flex flex-row items-center
                 gap-2
                 h-12
                 hover:underline
                 hover:bg-[var(--c-20)]
-                px-1.5
+                px-3
                 py-1s
                 rounded-lg
             ">
-            <iconify-icon icon="mingcute:inbox-fill" width="20">
+            <iconify-icon icon="mingcute:inbox-fill" width="22">
             </iconify-icon>
             <p>
               Posts
@@ -126,11 +193,11 @@ flex flex-row items-center
                         h-12
                         hover:underline
                         hover:bg-[var(--c-20)]
-                        px-1.5
+                        px-3
                         py-1
                         rounded-lg
                     ">
-            <iconify-icon icon="mingcute:science-fill" width="20">
+            <iconify-icon icon="mingcute:science-fill" width="22">
             </iconify-icon>
             <p>
                 Publications
@@ -144,11 +211,11 @@ flex flex-row items-center
                         h-12
                         hover:underline
                         hover:bg-[var(--c-20)]
-                        px-1.5
+                        px-3
                         py-1
                         rounded-lg
                     ">
-            <iconify-icon icon="mingcute:user-info-fill" width="20">
+            <iconify-icon icon="mingcute:user-info-fill" width="22">
             </iconify-icon>
             <p>
                 About
@@ -162,11 +229,11 @@ flex flex-row items-center
                         h-12
                         hover:underline
                         hover:bg-[var(--c-20)]
-                        px-1.5
+                        px-3
                         py-1
                         rounded-lg
                     ">
-            <iconify-icon icon="mingcute:classify-2-fill" width="20">
+            <iconify-icon icon="mingcute:classify-2-fill" width="22">
             </iconify-icon>
             <p>
                 Categories
@@ -180,11 +247,11 @@ flex flex-row items-center
                         h-12
                         hover:underline
                         hover:bg-[var(--c-20)]
-                        px-1.5
+                        px-3
                         py-1
                         rounded-lg
                     ">
-            <iconify-icon icon="mingcute:tag-fill" width="20">
+            <iconify-icon icon="mingcute:tag-fill" width="22">
             </iconify-icon>
             <p>
                 Tags
@@ -198,11 +265,11 @@ flex flex-row items-center
                         h-12
                         hover:underline
                         hover:bg-[var(--c-20)]
-                        px-1.5
+                        px-3
                         py-1
                         rounded-lg
                     ">
-            <iconify-icon icon="mingcute:home-2-fill" width="20">
+            <iconify-icon icon="mingcute:home-2-fill" width="22">
             </iconify-icon>
             <p>
                 Home
