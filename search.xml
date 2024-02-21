@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>解决 SourceTree 提交代码失败</title>
+      <link href="/2024/02/22/%E8%A7%A3%E5%86%B3%20SourceTree%20%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81%E5%A4%B1%E8%B4%A5/"/>
+      <url>/2024/02/22/%E8%A7%A3%E5%86%B3%20SourceTree%20%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81%E5%A4%B1%E8%B4%A5/</url>
+      
+        <content type="html"><![CDATA[<p>最近使用SourceTree提交代码时遇到了问题，尽管尝试重新安装SourceTree和Git，但问题仍然存在。</p><p><strong>错误信息：</strong>在提交代码时，出现了以下错误信息：</p><figure class="highlight powershell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git <span class="literal">-c</span> diff.mnemonicprefix=false <span class="literal">-c</span> core.quotepath=false <span class="literal">--no-optional-locks</span> push <span class="literal">-v</span> <span class="literal">--tags</span> origin DEV:DEV</span><br><span class="line">fatal: unable to access <span class="string">'https://bitbucket.org/xxxxxx/xxxxxx.git/'</span>: Received HTTP code <span class="number">404</span> from proxy after CONNECT</span><br><span class="line">Pushing to https://xxxxxx@bitbucket.org/xxxxxx/xxxxxx.git</span><br><span class="line">完成时带有错误，见上文。</span><br></pre></td></tr></tbody></table></figure><p>这个错误提示表明无法访问远程仓库，并返回了HTTP 404错误码。</p><p><strong>解决方案：</strong>通过以下步骤解决该问题：</p><ol><li>打开SourceTree软件。</li><li>点击菜单栏中的 "工具"。</li><li>选择 "选项"。</li><li>在选项窗口中找到 "网络" 选项。</li><li>取消勾选 "<code>向Git/Mercurial配置文件中添加代理服务器信息</code>" 选项。</li><li>点击 "确定" 保存设置。</li></ol><p>以上步骤完成后，再次尝试提交代码，问题应该会得到解决。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Software </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+            <tag> sourceTree </tag>
+            
+            <tag> error </tag>
+            
+            <tag> fatal </tag>
+            
+            <tag> http </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用 EJS 构建响应式网页布局</title>
       <link href="/2024/02/20/%E4%BD%BF%E7%94%A8%20EJS%20%E6%9E%84%E5%BB%BA%E5%93%8D%E5%BA%94%E5%BC%8F%E7%BD%91%E9%A1%B5%E5%B8%83%E5%B1%80/"/>
       <url>/2024/02/20/%E4%BD%BF%E7%94%A8%20EJS%20%E6%9E%84%E5%BB%BA%E5%93%8D%E5%BA%94%E5%BC%8F%E7%BD%91%E9%A1%B5%E5%B8%83%E5%B1%80/</url>
@@ -20,11 +53,11 @@
       
         <tags>
             
+            <tag> technology </tag>
+            
             <tag> hexo </tag>
             
             <tag> website </tag>
-            
-            <tag> technology </tag>
             
             <tag> layout </tag>
             
@@ -59,9 +92,9 @@
       
         <tags>
             
-            <tag> website </tag>
-            
             <tag> technology </tag>
+            
+            <tag> website </tag>
             
             <tag> vitepress </tag>
             
@@ -92,11 +125,11 @@
       
         <tags>
             
+            <tag> technology </tag>
+            
             <tag> hexo </tag>
             
             <tag> website </tag>
-            
-            <tag> technology </tag>
             
             <tag> filter </tag>
             
@@ -125,13 +158,13 @@
       
         <tags>
             
+            <tag> technology </tag>
+            
             <tag> website </tag>
             
             <tag> vercel </tag>
             
             <tag> domain </tag>
-            
-            <tag> technology </tag>
             
             <tag> cloudflare </tag>
             
@@ -164,6 +197,8 @@
       
         <tags>
             
+            <tag> technology </tag>
+            
             <tag> hexo </tag>
             
             <tag> blog </tag>
@@ -177,8 +212,6 @@
             <tag> vercel </tag>
             
             <tag> domain </tag>
-            
-            <tag> technology </tag>
             
             <tag> cloudflare </tag>
             
@@ -304,11 +337,11 @@
       
         <tags>
             
+            <tag> technology </tag>
+            
             <tag> life </tag>
             
             <tag> start </tag>
-            
-            <tag> technology </tag>
             
             <tag> research </tag>
             
@@ -339,13 +372,13 @@
       
         <tags>
             
-            <tag> windows </tag>
-            
             <tag> wlan </tag>
             
-            <tag> regedit </tag>
+            <tag> windows </tag>
             
             <tag> network </tag>
+            
+            <tag> regedit </tag>
             
             <tag> 以太网 </tag>
             
@@ -405,9 +438,9 @@
       
         <tags>
             
-            <tag> powershell </tag>
-            
             <tag> windows </tag>
+            
+            <tag> powershell </tag>
             
         </tags>
       
@@ -560,9 +593,9 @@
             
             <tag> error </tag>
             
-            <tag> anti-virus </tag>
-            
             <tag> regedit </tag>
+            
+            <tag> anti-virus </tag>
             
         </tags>
       
@@ -651,8 +684,6 @@
       
         <tags>
             
-            <tag> technology </tag>
-            
             <tag> arp欺骗 </tag>
             
             <tag> wifi </tag>
@@ -662,6 +693,8 @@
             <tag> 网络安全 </tag>
             
             <tag> security </tag>
+            
+            <tag> technology </tag>
             
         </tags>
       
@@ -719,9 +752,9 @@
       
         <tags>
             
-            <tag> website </tag>
-            
             <tag> technology </tag>
+            
+            <tag> website </tag>
             
             <tag> editor </tag>
             
@@ -859,9 +892,9 @@
       
         <tags>
             
-            <tag> website </tag>
-            
             <tag> technology </tag>
+            
+            <tag> website </tag>
             
             <tag> interview </tag>
             
