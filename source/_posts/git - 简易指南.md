@@ -21,18 +21,20 @@ tags:
 助你开始使用 git 的简易指南，木有高深内容，;)。
 
 原作者：[罗杰·杜德勒](http://www.twitter.com/rogerdudler)
+
 感谢：[@tfnico](http://www.twitter.com/tfnico), [@fhd](http://www.twitter.com/fhd) and [Namics](http://www.namics.com/)
+
 如有纰漏，请到 [github](https://github.com/rogerdudler/git-guide/issues) 填报
 
 ![](./git - 简易指南/763686.webp)
 
 ## 安装
 
-[下载 git OSX 版]([Git - Downloading Package (git-scm.com)](https://git-scm.com/download/mac))
+[下载 git OSX 版](https://git-scm.com/download/mac)
 
-[下载 git Windows 版]([Git - Downloading Package (git-scm.com)](https://git-scm.com/download/win))
+[下载 git Windows 版](https://git-scm.com/download/win)
 
-[下载 git Linux 版]([Git (git-scm.com)](https://git-scm.com/download/linux))
+[下载 git Linux 版](https://git-scm.com/download/linux)
 
 ## 创建新仓库
 
