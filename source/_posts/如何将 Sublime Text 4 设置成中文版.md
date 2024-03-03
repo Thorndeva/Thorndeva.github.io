@@ -18,13 +18,13 @@ tags:
 
 一开始，我们的 Sublime Text 4 是没有 `Package Control` 的，需要我们自己手动安装。安装了Package Control之后，我们就可以安装我们想要的插件了。
 
-### 安装Package Control：
+## 安装Package Control
 
 1. 打开Sublime Text，使用快捷键`Shift+Ctrl+P`，弹出查找栏。
 2. 在搜索框中输入关键字"`install`"，会出现下拉选项，点击选择其中的"`Install Package Control`"。
 3. 安装成功后会有提示，也可以通过Preferences查看，如果有"Package Control"选项，说明安装成功了。
 
-### 安装中文插件：
+## 安装中文插件
 
 1. 使用快捷键Shift+Ctrl+P，再次打开查找栏。
 2. 在弹出框中输入"Install Package"，稍等几秒给软件一点反应时间。
@@ -32,7 +32,9 @@ tags:
 
 除了安装中文插件，我们还可以通过软件的帮助菜单中的"Language"选项查看并修改其他语言设置。
 
-通过上述操作，我们可以安装其他插件。下面是一些常用的插件列表：
+通过上述操作，我们可以安装其他插件。
+
+## 常用插件列表
 
 - **Emmet**：编码快捷键，前端必备。
 - **JSFormat**：JavaScript代码格式化插件。
@@ -49,6 +51,6 @@ tags:
 - **AutoFileName**：快捷输入文件名插件。
 - **IMESupport**：中文输入法支持插件。
 
-个人建议使用Package Control进行安装，因为手动安装不够便捷。
+> 个人建议使用Package Control进行安装，因为手动安装不够便捷。
 
 参考文档：[如何将Sublime Text 4 设置成中文版_sublime text4设置中文-CSDN博客](https://blog.csdn.net/hzgjgr/article/details/118279688)

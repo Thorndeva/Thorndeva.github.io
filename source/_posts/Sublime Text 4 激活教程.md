@@ -13,9 +13,9 @@ tags:
 - technology
 ---
 
-### 下载与安装指南
+## 下载与安装
 
-#### Sublime Text 官方网站
+### Sublime Text 官方网站
 
 请前往 Sublime Text 官方网站进行下载和安装。
 
@@ -24,9 +24,9 @@ tags:
 
 ------
 
-### Windows平台激活方法
+## Windows平台激活方法
 
-#### 免费激活流程
+### 免费激活流程
 
 1. 打开以下网站：[点击跳转](https://www.hexed.it/)
 2. 具体操作步骤如下：
@@ -39,7 +39,7 @@ tags:
 
 ------
 
-### Mac平台激活方法
+## Mac平台激活方法
 
 激活 Sublime Text 的步骤与Windows平台相同。
 
@@ -64,5 +64,3 @@ tags:
    ```powershell
    codesign --remove-signature Sublime\ Text.app/
    ```
-
-**请注意：** 以上方法尚未亲自验证。

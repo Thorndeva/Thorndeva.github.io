@@ -16,8 +16,6 @@ tags:
 - technology
 ---
 
-## git - 简易指南
-
 助你开始使用 git 的简易指南，木有高深内容，;)。
 
 原作者：[罗杰·杜德勒](http://www.twitter.com/rogerdudler)
@@ -176,7 +174,7 @@ tags:
 
 ## 链接与资源
 
-### 图形化界面
+#### 图形化界面
 
 - [GitX (L) (OSX, open source)](http://gitx.laullon.com/)
 - [Tower (OSX)](http://www.git-tower.com/)
@@ -184,7 +182,7 @@ tags:
 - [GitHub for Mac (OSX, free)](http://mac.github.com/)
 - [GitBox (OSX)](https://itunes.apple.com/gb/app/gitbox/id403388357?mt=12)
 
-### 指南与手册
+#### 指南与手册
 
 - [Git 社区参考书](http://book.git-scm.com/)
 - [专业 Git](http://progit.org/book/)

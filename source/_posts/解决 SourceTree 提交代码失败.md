@@ -14,7 +14,7 @@ tags:
 
 最近使用SourceTree提交代码时遇到了问题，尽管尝试重新安装SourceTree和Git，但问题仍然存在。
 
-**错误信息：**
+## 错误信息
 在提交代码时，出现了以下错误信息：
 
 ```powershell
@@ -26,7 +26,7 @@ Pushing to https://xxxxxx@bitbucket.org/xxxxxx/xxxxxx.git
 
 这个错误提示表明无法访问远程仓库，并返回了HTTP 404错误码。
 
-**解决方案：**
+## 解决方案
 通过以下步骤解决该问题：
 
 1. 打开SourceTree软件。
