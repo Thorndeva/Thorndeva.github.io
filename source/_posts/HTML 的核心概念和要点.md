@@ -227,26 +227,6 @@ HTML注释可以用来暂时移除一段代码，使其在渲染时不起作用�
 
 我们再来看看已经介绍的两个必要`<metadata>`标签：字符集声明和视口元标记，在此过程中更好地了解`<metadata>`标签。`<metadata>`元素的charset属性以独特的方式生成。最初，字符集元数据编写为`<meta http-equiv="Content-Type" content="text/html;charset=<characterset>" />`
 
-## 官方定义的元标记
-
-元标记主要分为两类：包含http-equiv属性（例如过去包含的字符集元标记）和已命名的元标记类型（例如带有name属性的视口元标记，我们在文档结构部分讨论过）。name和http-equiv元类型都必须包含content属性，该属性用于定义所列元数据类型的内容。
-
-## Pragma 指令
-
-http-equiv属性的值为Pragma指令。这些指令描述了应如何解析网页。如果您无法直接设置HTTP标头，可以使用支持的http-equiv值来启用设置指令。
-
-该规范定义了7个Pragma指令，其中大多数指令都有其他设置方法。例如，虽然您可以使用`<meta http-equiv="content-language" content="en-us" />`添加语言指令，但我们已经讨论过如何对HTML元素使用lang属性，这也就应该使用该属性。
-
-最常见的Pragma指令是refresh指令。尽管您可以将指令设置为以content属性中设置的秒数为间隔进行刷新，甚至可以重定向到其他网址，但不建议这样做。在没有用户明确请求的情况下刷新和重定向内容会导致易用性不佳，还会对可访问性产生负面影响。
-
-我们不会在网站中包含此内容，因为除了讨厌我们的访问者外，没有必要让用户会话超时。
-
-最实用的Pragma指令是content-security-policy，该指令支持为当前文档定义内容政策。
-
-## 已命名的元标记
-
-通常情况下，您需要包含已命名的元数据。添加name属性，属性值为元数据的名称。与Pragma指令一样，content属性也是必需的。
-
 ## 关键字
 
 搜索引擎优化的蛇油销售员滥用关键字元标记，在关键字元标记中堆砌了以英文逗号分隔的垃圾内容字词列表，而不是相关关键词列表，因此搜索引擎认为此元数据不再有用。说明
@@ -264,75 +244,6 @@ http-equiv属性的值为Pragma指令。这些指令描述了应如何解析网�
 ## 打开图表
 
 Open Graph和类似的元标记协议可用于控制社交媒体网站（例如Twitter、LinkedIn和Facebook）显示指向您内容的链接的方式。如果未添加该网址，社交媒体网站将从说明元标记中正确抓取网页标题和说明，这些信息与搜索引擎呈现的信息相同，但是您可以有针对性地设置，在链接发布到您的网站后，用户会看到什么内容。
-
-## 其他有用的元信息
-
-如果有人将您的网站加入书签、将其添加到他们的主屏幕，或者如果您的网站是渐进式Web应用，或以其他方式离线运行或不显示浏览器Chrome功能，那么您可以为移动设备的主屏幕提供应用图标。
-
-您可以使用`<link>`标记链接到要使用的启动映像。如果您的网站或应用支持Web应用，即网站可以独立运行，且界面极小（例如没有返回按钮），您也可以使用元标记告知浏览器。
-
-示例代码：
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Machine Learning Workshop</title>
-    <meta name="viewport" content="width=device-width" />
-    <meta name="description" content="Register for a machine learning workshop at our school for machines who can't learn good and want to do other stuff good too" />
-    <meta property="og:title" content="Machine Learning Workshop" />
-    <meta property="og:description" content="School for Machines Who Can't Learn Good and Want to Do Other Stuff Good Too" />
-    <meta property="og:image" content="http://www.machinelearningworkshop.com/image/all.png" />
-    <meta property="og:image:alt" content="Black and white line drawing of refrigerator, french door refrigerator, range, washer, fan, microwave, vaccuum, space heater and air conditioner" />
-    <meta name="twitter:title" content="Machine Learning Workshop" />
-    <meta name="twitter:description" content="School for machines who can't learn good and want to do other stuff good too" />
-    <meta name="twitter:url" content="https://www.machinelearningworkshop.com/?src=twitter" />
-    <meta name="twitter:image:src" content="http://www.machinelearningworkshop.com/image/all.png" />
-    <meta name="twitter:image:alt" content="27 different home appliances" />
-    <meta name="twitter:creator" content="@estellevw" />
-    <meta name="twitter:site" content="@perfmattersconf" />
-    <link rel="stylesheet" src="css/styles.css" />
-    <link rel="icon" type="image/png" href="/images/favicon.png" />
-    <link rel="alternate" href="https://www.machinelearningworkshop.com/fr/" hreflang="fr-FR" />
-    <link rel="alternate" href="https://www.machinelearningworkshop.com/pt/" hreflang="pt-BR" />
-    <link rel="canonical" href="https://www.machinelearning.com" />
-    <link rel="manifest" href="/mlwmanifest.json" />
-  </head>
-  <body>
-
-    <!-- <script defer src="scripts/lightswitch.js"></script>-->
-  </body>
-</html>
-```
-
-这段HTML代码是一个基本的网页结构，其中包含了一些关键的元数据和链接。让我们来逐一分析：
-
-1. `<!DOCTYPE html>`：声明文档类型为HTML5，告诉浏览器采用HTML5标准解析页面。
-2. `<html lang="en">`：定义了页面的主语言为英语。
-3. `<head>`：包含了页面的头部信息，如字符编码、标题、视口设置、描述等。
-4. `<meta charset="utf-8" />`：定义了页面的字符编码为UTF-8，确保能够正确显示页面中的各种字符。
-5. `<title>Machine Learning Workshop</title>`：定义了页面的标题为"Machine Learning Workshop"。
-6. `<meta name="viewport" content="width=device-width" />`：指定了页面的视口宽度与设备宽度一致，以实现响应式布局。
-7. `<meta name="description" content="Register for a machine learning workshop at our school for machines who can't learn good and want to do other stuff good too" />`：提供了页面的描述信息，用于搜索引擎的索引和展示。
-8. `<meta property="og:title" content="Machine Learning Workshop" />`：定义了Open Graph协议的页面标题。
-9. `<meta property="og:description" content="School for Machines Who Can't Learn Good and Want to Do Other Stuff Good Too" />`：定义了Open Graph协议的页面描述。
-10. `<meta property="og:image" content="http://www.machinelearningworkshop.com/image/all.png" />`：定义了Open Graph协议的页面图片。
-11. `<meta property="og:image:alt" content="Black and white line drawing of refrigerator, french door refrigerator, range, washer, fan, microwave, vaccuum, space heater and air conditioner" />`：定义了Open Graph协议的页面图片的替代文本。
-12. `<meta name="twitter:title" content="Machine Learning Workshop" />`：定义了Twitter卡片的标题。
-13. `<meta name="twitter:description" content="School for machines who can't learn good and want to do other stuff good too" />`：定义了Twitter卡片的描述。
-14. `<meta name="twitter:url" content="https://www.machinelearningworkshop.com/?src=twitter" />`：定义了Twitter卡片的链接。
-15. `<meta name="twitter:image:src" content="http://www.machinelearningworkshop.com/image/all.png" />`：定义了Twitter卡片的图片链接。
-16. `<meta name="twitter:image:alt" content="27 different home appliances" />`：定义了Twitter卡片的图片的替代文本。
-17. `<meta name="twitter:creator" content="@estellevw" />`：定义了Twitter卡片的创建者。
-18. `<meta name="twitter:site" content="@perfmattersconf" />`：定义了Twitter卡片的站点。
-19. `<link rel="stylesheet" src="css/styles.css" />`：引用了一个样式表文件，用于页面的样式控制。
-20. `<link rel="icon" type="image/png" href="/images/favicon.png" />`：定义了页面的图标，用于在浏览器标签页上显示。
-21. `<link rel="alternate" href="https://www.machinelearningworkshop.com/fr/" hreflang="fr-FR" />` 和 `<link rel="alternate" href="https://www.machinelearningworkshop.com/pt/" hreflang="pt-BR" />`：提供了页面的多语言版本链接，以便搜索引擎能够正确地索引和展示多语言内容。
-22. `<link rel="canonical" href="https://www.machinelearning.com" />`：指定了页面的规范链接，用于标识页面的原始版本。
-23. `<link rel="manifest" href="/mlwmanifest.json" />`：引用了一个Web应用清单文件，用于配置渐进式Web应用的相关信息。
-
-这段代码的作用是提供了丰富的元数据和链接信息，有助于提高页面的可访问性、搜索引擎优化和社交分享效果。
 
 ## 附录
 

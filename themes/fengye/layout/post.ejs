@@ -5,10 +5,10 @@
     <% if (toc(page.content).length !==0) { %>
   <%- partial('_partial/toc') %>
 <% } %>
-<section class="px-6 max-w-prose mx-auto">
+<section class="px-6 max-w-3xl mx-auto">
   <!-- Post header before content -->
   <header class="py-4">
-    <div class="flex flex-col gap-2 pt-4 md:pt-6">
+    <div class="flex flex-col gap-2 pt-4 md:pt-20">
       <!-- Title -->
       <div id="article-title" class="leading-snug">
         <p class="text-3xl font-bold text-[var(--c-100)] mb-4"><%- page.title %></p>
@@ -68,7 +68,7 @@
     </div>
   </header>
   <!-- content -->
-  <article class="post-content prose max-w-prose mx-auto dark:prose-invert">
+  <article class="post-content prose max-w-3xl mx-auto dark:prose-invert">
     <%- page.content %>
   </article>
 
