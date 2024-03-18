@@ -31,7 +31,7 @@ HTML中有许多不同类型的元素和标签，每个[元素](https://webtutor
 
 ![](./HTML 的核心概念和要点/tag.webp)
 
-## HTML 页面的结构是什么？
+## HTML 页面的结构
 
 HTML 页面由多个部分组成，包括 doctype 声明、head 部分和 body 部分。
 
