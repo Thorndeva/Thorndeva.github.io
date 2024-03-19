@@ -73,7 +73,7 @@
   </article>
 
   <!-- prev and next -->
-<div class="flex justify-center mt-6 pt-6 text-sm gap-5 text-[var(--c-50)]">
+<div class="flex justify-between mt-6 pt-6 text-sm gap-5 text-[var(--c-50)]">
     <div>
         <% if (page.prev) { %>
             <a href="<%- url_for(page.prev.path) %>"
@@ -83,7 +83,6 @@
             </a>
             <% } %>
     </div>
-    <div>
     <div>
       <% if (page.next) { %>
         <a href="<%- url_for(page.next.path) %>"
